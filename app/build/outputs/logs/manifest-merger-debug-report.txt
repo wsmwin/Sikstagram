@@ -1,0 +1,294 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d21872e284257a39bc98757ef071016f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\83ce4b4c52325653ad5f478fb1da939d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d44f78a4aaf5da0d797c30a4226cc0b8\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b2d2d024259b71ccc418cd1013ca57b2\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\033acda4493c2fb8e6cfad6649be0b56\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1ab3951175884f23762fef5d55ae341c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b84ae988a506fb10635cf2a7e41cc275\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c359cefd37a932f99abaa1aa82c564bc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\4fdf7162c27cb3e1ee0942cb7c8f5049\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\430649e7c523bccde3230fcc2213c692\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0a2809035d4cfe9236192a7ad7f4b84c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\07e7980386c2b94ca051482bbdb89aea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f0649bd8647f294de178c0115f6615b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a6394bd9b0299b0f45c4e756e9614ea5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\848e33055cf42eec9cbaa9f5d0a9a583\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c7b7fc8e3d884c63b8d3b88a1f333d01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0447f709433a8230582165f134943873\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\3e228e6f36a44afc2306e20e92c8a728\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\8a1c50aae716c4ec39d9183b2579d9b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\3963df76f9f7abe4213391e7728ea1bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bc15a3b56a40f68fbdd4aa9626bf4cda\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\22d212aa5830a6e1f048ba411b215403\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\56eebce8bf27ffbd07c312989e76a699\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f1154e78b4d1205060c5e3e158869149\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\022da77feb1e47ab5a746c9ebe12b474\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d5a337622e1ef6c725ef691fc1c55cea\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1938c4f1da29a3541aab9d75fbe099e0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\79c5f223a7de1c741aac0167729c715b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f5d452464ae353ad002cffb687fa945a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f8809c0fe80cf6a3851c07f9536d8fa9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\26f4a365a022f14477599714dd6313e9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f51c54cd3468dd24300541db3ee2b258\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\939ae6d9988d63320c40f1b76dce2229\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6b0caf52b8b45822d3f83eceddc999a4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a1f7da93279d024fe2fee55d5cad49d0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1794cc57e49e0ca8a490c4679ed42103\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cf07915949c057d079637f0ed51ed1c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6e4ae590149af76bfeb6a5adb946e6f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\7fa532e44e4cfb8e3cc80dd2f133b080\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0f10b9c9f83be91710b597745c77100a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\654be8a7b8575d48ce90354284d6f130\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\15b75cdf99abb63377948bb4f2ceba18\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\01e5b56e9bb71aae4696f69c8fd350e9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6aa8091429e81fcf603e29353d033eda\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\04011c93980476a2c5966fe1b6376e96\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\649b34b0f67b42e673af2cefb9c6bc15\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\9b30c026db136bdb588c9214178eb005\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d21872e284257a39bc98757ef071016f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d21872e284257a39bc98757ef071016f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1ab3951175884f23762fef5d55ae341c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1ab3951175884f23762fef5d55ae341c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\4fdf7162c27cb3e1ee0942cb7c8f5049\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\4fdf7162c27cb3e1ee0942cb7c8f5049\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d5a337622e1ef6c725ef691fc1c55cea\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d5a337622e1ef6c725ef691fc1c55cea\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1938c4f1da29a3541aab9d75fbe099e0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1938c4f1da29a3541aab9d75fbe099e0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\7fa532e44e4cfb8e3cc80dd2f133b080\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\7fa532e44e4cfb8e3cc80dd2f133b080\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0f10b9c9f83be91710b597745c77100a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0f10b9c9f83be91710b597745c77100a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\654be8a7b8575d48ce90354284d6f130\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\654be8a7b8575d48ce90354284d6f130\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\15b75cdf99abb63377948bb4f2ceba18\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\15b75cdf99abb63377948bb4f2ceba18\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\01e5b56e9bb71aae4696f69c8fd350e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\01e5b56e9bb71aae4696f69c8fd350e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6aa8091429e81fcf603e29353d033eda\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6aa8091429e81fcf603e29353d033eda\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\04011c93980476a2c5966fe1b6376e96\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\04011c93980476a2c5966fe1b6376e96\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\649b34b0f67b42e673af2cefb9c6bc15\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\649b34b0f67b42e673af2cefb9c6bc15\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\9b30c026db136bdb588c9214178eb005\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\9b30c026db136bdb588c9214178eb005\AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d5a337622e1ef6c725ef691fc1c55cea\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.sikstagram.StartActivity
+ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:12:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d21872e284257a39bc98757ef071016f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d21872e284257a39bc98757ef071016f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\83ce4b4c52325653ad5f478fb1da939d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\83ce4b4c52325653ad5f478fb1da939d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d44f78a4aaf5da0d797c30a4226cc0b8\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d44f78a4aaf5da0d797c30a4226cc0b8\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b2d2d024259b71ccc418cd1013ca57b2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b2d2d024259b71ccc418cd1013ca57b2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\033acda4493c2fb8e6cfad6649be0b56\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\033acda4493c2fb8e6cfad6649be0b56\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1ab3951175884f23762fef5d55ae341c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1ab3951175884f23762fef5d55ae341c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b84ae988a506fb10635cf2a7e41cc275\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b84ae988a506fb10635cf2a7e41cc275\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c359cefd37a932f99abaa1aa82c564bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c359cefd37a932f99abaa1aa82c564bc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\4fdf7162c27cb3e1ee0942cb7c8f5049\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\4fdf7162c27cb3e1ee0942cb7c8f5049\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\430649e7c523bccde3230fcc2213c692\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\430649e7c523bccde3230fcc2213c692\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0a2809035d4cfe9236192a7ad7f4b84c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0a2809035d4cfe9236192a7ad7f4b84c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\07e7980386c2b94ca051482bbdb89aea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\07e7980386c2b94ca051482bbdb89aea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f0649bd8647f294de178c0115f6615b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f0649bd8647f294de178c0115f6615b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a6394bd9b0299b0f45c4e756e9614ea5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a6394bd9b0299b0f45c4e756e9614ea5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\848e33055cf42eec9cbaa9f5d0a9a583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\848e33055cf42eec9cbaa9f5d0a9a583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c7b7fc8e3d884c63b8d3b88a1f333d01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c7b7fc8e3d884c63b8d3b88a1f333d01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0447f709433a8230582165f134943873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0447f709433a8230582165f134943873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\3e228e6f36a44afc2306e20e92c8a728\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\3e228e6f36a44afc2306e20e92c8a728\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\8a1c50aae716c4ec39d9183b2579d9b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\8a1c50aae716c4ec39d9183b2579d9b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\3963df76f9f7abe4213391e7728ea1bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\3963df76f9f7abe4213391e7728ea1bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bc15a3b56a40f68fbdd4aa9626bf4cda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bc15a3b56a40f68fbdd4aa9626bf4cda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\22d212aa5830a6e1f048ba411b215403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\22d212aa5830a6e1f048ba411b215403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\56eebce8bf27ffbd07c312989e76a699\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\56eebce8bf27ffbd07c312989e76a699\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f1154e78b4d1205060c5e3e158869149\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f1154e78b4d1205060c5e3e158869149\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\022da77feb1e47ab5a746c9ebe12b474\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\022da77feb1e47ab5a746c9ebe12b474\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d5a337622e1ef6c725ef691fc1c55cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\d5a337622e1ef6c725ef691fc1c55cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1938c4f1da29a3541aab9d75fbe099e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1938c4f1da29a3541aab9d75fbe099e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\79c5f223a7de1c741aac0167729c715b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\79c5f223a7de1c741aac0167729c715b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f5d452464ae353ad002cffb687fa945a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f5d452464ae353ad002cffb687fa945a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f8809c0fe80cf6a3851c07f9536d8fa9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f8809c0fe80cf6a3851c07f9536d8fa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\26f4a365a022f14477599714dd6313e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\26f4a365a022f14477599714dd6313e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f51c54cd3468dd24300541db3ee2b258\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\f51c54cd3468dd24300541db3ee2b258\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\939ae6d9988d63320c40f1b76dce2229\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\939ae6d9988d63320c40f1b76dce2229\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6b0caf52b8b45822d3f83eceddc999a4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6b0caf52b8b45822d3f83eceddc999a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a1f7da93279d024fe2fee55d5cad49d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a1f7da93279d024fe2fee55d5cad49d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1794cc57e49e0ca8a490c4679ed42103\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\1794cc57e49e0ca8a490c4679ed42103\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cf07915949c057d079637f0ed51ed1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cf07915949c057d079637f0ed51ed1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6e4ae590149af76bfeb6a5adb946e6f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6e4ae590149af76bfeb6a5adb946e6f1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\7fa532e44e4cfb8e3cc80dd2f133b080\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\7fa532e44e4cfb8e3cc80dd2f133b080\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0f10b9c9f83be91710b597745c77100a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0f10b9c9f83be91710b597745c77100a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\654be8a7b8575d48ce90354284d6f130\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\654be8a7b8575d48ce90354284d6f130\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\15b75cdf99abb63377948bb4f2ceba18\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\15b75cdf99abb63377948bb4f2ceba18\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\01e5b56e9bb71aae4696f69c8fd350e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\01e5b56e9bb71aae4696f69c8fd350e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6aa8091429e81fcf603e29353d033eda\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6aa8091429e81fcf603e29353d033eda\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\04011c93980476a2c5966fe1b6376e96\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\04011c93980476a2c5966fe1b6376e96\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\649b34b0f67b42e673af2cefb9c6bc15\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\649b34b0f67b42e673af2cefb9c6bc15\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\9b30c026db136bdb588c9214178eb005\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\9b30c026db136bdb588c9214178eb005\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10fc2bff6550bf3c0a386a06d05f307b\AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b89ecd30e48b4a684eccf9b586c2b49b\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\35ce8a64c62d7c717e62beeddf79b54c\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\077588582e3cb386fcbe6f63740ca57f\AndroidManifest.xml:24:13-58
