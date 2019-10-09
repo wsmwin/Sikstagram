@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\KBS\\Desktop\\Sikstagram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "C:\\sikstargram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KBS\\.gradle\\caches\\transforms-2\\files-2.1\\077588582e3cb386fcbe6f63740ca57f\\res\\values-ru\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "283",
-                        "endColumns": "215",
-                        "endOffsets": "498"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3989",
-                        "endColumns": "215",
-                        "endOffsets": "4200"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\KBS\\.gradle\\caches\\transforms-2\\files-2.1\\83ce4b4c52325653ad5f478fb1da939d\\res\\values-ru\\values-ru.xml",
+                    "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\KBS\\.gradle\\caches\\transforms-2\\files-2.1\\b89ecd30e48b4a684eccf9b586c2b49b\\res\\values-ru\\values.xml",
+                    "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\1030f757081fd171045d7039a7a108b4\\jetified-play-services-base-11.8.0\\res\\values-ru\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\KBS\\.gradle\\caches\\transforms-2\\files-2.1\\d5a337622e1ef6c725ef691fc1c55cea\\res\\values-ru\\values-ru.xml",
+                    "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\d0d15f6e9ca8dfe7ea3e1c2c8297afe6\\jetified-play-services-basement-11.8.0\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "215",
+                        "endOffsets": "498"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3989",
+                        "endColumns": "215",
+                        "endOffsets": "4200"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\a5eeeb9eea3e6bb9bbf6364c963c2926\\core-1.0.1\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

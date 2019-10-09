@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\KBS\\Desktop\\Sikstagram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\sikstargram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KBS\\.gradle\\caches\\transforms-2\\files-2.1\\83ce4b4c52325653ad5f478fb1da939d\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
