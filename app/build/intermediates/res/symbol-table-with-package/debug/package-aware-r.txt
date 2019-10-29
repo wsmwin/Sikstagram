@@ -704,6 +704,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color selector
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1047,11 +1048,16 @@ drawable design_snackbar_background
 drawable edittext_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add
+drawable ic_heart
+drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_profile
+drawable ic_search
 drawable logo
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1108,6 +1114,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bottom_navigation
 id buttonPanel
 id cancel_action
 id center
@@ -1151,6 +1158,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment_container
 id fullname
 id ghost_view
 id gone
@@ -1184,6 +1192,11 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_add
+id nav_heart
+id nav_home
+id nav_profile
+id nav_search
 id navigation_header_container
 id never
 id none
@@ -1338,6 +1351,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_post
 layout activity_register
 layout activity_start
 layout design_bottom_navigation_item
@@ -1354,6 +1368,10 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_home
+layout fragment_notification
+layout fragment_profile
+layout fragment_search
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1375,6 +1393,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1448,6 +1467,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description

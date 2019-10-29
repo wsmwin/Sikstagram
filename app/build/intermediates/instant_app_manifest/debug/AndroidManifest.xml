@@ -31,6 +31,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.sikstagram.PostActivity" />
         <activity android:name="com.example.sikstagram.MainActivity" />
         <activity android:name="com.example.sikstagram.RegisterActivity" />
         <activity android:name="com.example.sikstagram.LoginActivity" />

@@ -1,4 +1,4 @@
-#Wed Oct 09 17:43:06 KST 2019
-base.0=C\:\\sikstargram\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Tue Oct 29 22:23:50 KST 2019
+base.0=C\:\\Users\\KBS\\Desktop\\Sikstagram2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
