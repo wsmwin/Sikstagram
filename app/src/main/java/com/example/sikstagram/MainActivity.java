@@ -20,11 +20,14 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
     Fragment selectedFragment = null;
+    Classifier classifier;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        classifier = new Classifier(Classifier_Utils.assetFilePath(this,"mobilenet-v2.pt"));
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
