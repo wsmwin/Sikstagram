@@ -15,9 +15,9 @@ public final class R {
         public static final int buttonSize = 0x7f030056;
         public static final int circleCrop = 0x7f03007b;
         public static final int colorScheme = 0x7f030097;
-        public static final int imageAspectRatio = 0x7f030104;
-        public static final int imageAspectRatioAdjust = 0x7f030105;
-        public static final int scopeUris = 0x7f030191;
+        public static final int imageAspectRatio = 0x7f030124;
+        public static final int imageAspectRatioAdjust = 0x7f030125;
+        public static final int scopeUris = 0x7f0301b1;
     }
     public static final class color {
         private color() {}
@@ -56,29 +56,29 @@ public final class R {
         public static final int common_google_signin_btn_text_light_focused = 0x7f07006f;
         public static final int common_google_signin_btn_text_light_normal = 0x7f070070;
         public static final int common_google_signin_btn_text_light_normal_background = 0x7f070071;
-        public static final int googleg_disabled_color_18 = 0x7f070079;
-        public static final int googleg_standard_color_18 = 0x7f07007a;
+        public static final int googleg_disabled_color_18 = 0x7f07007c;
+        public static final int googleg_standard_color_18 = 0x7f07007d;
     }
     public static final class id {
         private id() {}
 
-        public static final int adjust_height = 0x7f08001b;
-        public static final int adjust_width = 0x7f08001c;
-        public static final int auto = 0x7f080021;
-        public static final int center = 0x7f08002b;
-        public static final int dark = 0x7f08003a;
-        public static final int email = 0x7f080046;
-        public static final int icon_only = 0x7f08005f;
-        public static final int light = 0x7f08006a;
-        public static final int none = 0x7f08007f;
-        public static final int normal = 0x7f080080;
-        public static final int radio = 0x7f08008f;
-        public static final int standard = 0x7f0800ba;
-        public static final int text = 0x7f0800c4;
-        public static final int text2 = 0x7f0800c5;
-        public static final int toolbar = 0x7f0800d1;
-        public static final int wide = 0x7f0800e3;
-        public static final int wrap_content = 0x7f0800e6;
+        public static final int adjust_height = 0x7f08001e;
+        public static final int adjust_width = 0x7f08001f;
+        public static final int auto = 0x7f080024;
+        public static final int center = 0x7f08002e;
+        public static final int dark = 0x7f080047;
+        public static final int email = 0x7f080054;
+        public static final int icon_only = 0x7f08006e;
+        public static final int light = 0x7f08007a;
+        public static final int none = 0x7f08008f;
+        public static final int normal = 0x7f080090;
+        public static final int radio = 0x7f0800a4;
+        public static final int standard = 0x7f0800d0;
+        public static final int text = 0x7f0800da;
+        public static final int text2 = 0x7f0800db;
+        public static final int toolbar = 0x7f0800e7;
+        public static final int wide = 0x7f0800f9;
+        public static final int wrap_content = 0x7f0800fc;
     }
     public static final class integer {
         private integer() {}
@@ -110,11 +110,11 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] LoadingImageView = { 0x7f03007b, 0x7f030104, 0x7f030105 };
+        public static final int[] LoadingImageView = { 0x7f03007b, 0x7f030124, 0x7f030125 };
         public static final int LoadingImageView_circleCrop = 0;
         public static final int LoadingImageView_imageAspectRatio = 1;
         public static final int LoadingImageView_imageAspectRatioAdjust = 2;
-        public static final int[] SignInButton = { 0x7f030056, 0x7f030097, 0x7f030191 };
+        public static final int[] SignInButton = { 0x7f030056, 0x7f030097, 0x7f0301b1 };
         public static final int SignInButton_buttonSize = 0;
         public static final int SignInButton_colorScheme = 1;
         public static final int SignInButton_scopeUris = 2;

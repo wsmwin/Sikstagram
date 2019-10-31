@@ -884,10 +884,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< Updated upstream
     <option name="x" value="795" />
     <option name="y" value="51" />
     <option name="width" value="1058" />
     <option name="height" value="1056" />
+=======
+    <option name="x" value="676" />
+    <option name="y" value="-24" />
+    <option name="width" value="1059" />
+    <option name="height" value="1057" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
