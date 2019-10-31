@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\KBS\\Desktop\\Sikstagram2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\KBS\\Desktop\\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\KBS\\.gradle\\caches\\transforms-2\\files-2.1\\fc882638f6ce9b088fb35341f978c1cb\\media-1.0.0\\res\\values-v24\\values-v24.xml",

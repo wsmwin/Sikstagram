@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bac26bab6ca39e60fb650ab1e2a752e9\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\face7fcf7963d093ab35106d5bb41ddd\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6537466c5513f1311496cf771bae41a0\jetified-firebase-auth-11.8.0\AndroidManifest.xml:17:1-32:12
@@ -21,6 +21,8 @@ MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\KBS\.g
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\016f7791a52956a571788d959399faf4\jetified-play-services-basement-11.8.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b5519f97bcbda2c3577b52e9242bc5fb\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cc83a28f0fc5928891798aa83815015\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\701998f66ca58b68335751bfd9644f96\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0c6d3466375752ed3af75bdcfb03f7e4\jetified-glide-4.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c8cbb490dbe1e7b7bd4cfd0a6fe4b752\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10245c8af67386a93ab6b7651d2b5971\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\16a914c8e2cccfe1be8858b50b04b107\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -41,6 +43,7 @@ MERGED from [androidx.core:core:1.0.1] C:\Users\KBS\.gradle\caches\transforms-2\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\fe6ddcea5512bd72bbcdaa8c0be40b19\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\66131341e15412ce34dcfe8c2968d33d\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6294a7310ca2716841da0864b00da666\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b96f432837ab1253be0573f75c7bfff6\jetified-gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\77b30d55eed23e5cdc91e5fe4363a133\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\ef36b2119ae5c4fcf3276dca9951ebc4\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\fa4422f9ad1d9f744a02fedb4730859a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -62,25 +65,25 @@ MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\User
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\eb185daf716c8fa5000869207f1b252d\firebase-analytics-license-11.8.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\976b910d93d505fe7abb02e0fe6ff6f4\firebase-analytics-impl-license-11.8.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\81a25f747bb9d404951ffa54cf7b5f07\firebase-iid-license-11.8.0\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bac26bab6ca39e60fb650ab1e2a752e9\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bac26bab6ca39e60fb650ab1e2a752e9\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6537466c5513f1311496cf771bae41a0\jetified-firebase-auth-11.8.0\AndroidManifest.xml:22:5-30:19
@@ -103,10 +106,16 @@ MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\016f7791a52956a571788d959399faf4\jetified-play-services-basement-11.8.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cc83a28f0fc5928891798aa83815015\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cc83a28f0fc5928891798aa83815015\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\701998f66ca58b68335751bfd9644f96\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\701998f66ca58b68335751bfd9644f96\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0c6d3466375752ed3af75bdcfb03f7e4\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0c6d3466375752ed3af75bdcfb03f7e4\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.core:core:1.0.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a5eeeb9eea3e6bb9bbf6364c963c2926\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a5eeeb9eea3e6bb9bbf6364c963c2926\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\fe6ddcea5512bd72bbcdaa8c0be40b19\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\fe6ddcea5512bd72bbcdaa8c0be40b19\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b96f432837ab1253be0573f75c7bfff6\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b96f432837ab1253be0573f75c7bfff6\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\2b9c474d30b517c1d2c5fb49c1f5e343\firebase-auth-license-11.8.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\2b9c474d30b517c1d2c5fb49c1f5e343\firebase-auth-license-11.8.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\fce5d0bc4a28ce7476322b42b0179dc7\firebase-database-license-11.8.0\AndroidManifest.xml:5:5-20
@@ -134,51 +143,51 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\KBS\.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\a5eeeb9eea3e6bb9bbf6364c963c2926\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.sikstagram.PostActivity
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:12:9-59
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:12:9-59
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:12:19-47
 activity#com.example.sikstagram.MainActivity
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:13:9-50
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:13:9-50
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:13:19-47
 activity#com.example.sikstagram.RegisterActivity
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:14:9-54
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:14:9-54
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:14:19-51
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:14:19-51
 activity#com.example.sikstagram.LoginActivity
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:15:9-51
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:15:19-48
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.example.sikstagram.StartActivity
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:16:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bac26bab6ca39e60fb650ab1e2a752e9\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\bac26bab6ca39e60fb650ab1e2a752e9\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\face7fcf7963d093ab35106d5bb41ddd\appcompat-1.0.2\AndroidManifest.xml:20:5-44
@@ -213,6 +222,10 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\KBS\.gradle\cache
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b5519f97bcbda2c3577b52e9242bc5fb\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cc83a28f0fc5928891798aa83815015\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6cc83a28f0fc5928891798aa83815015\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\701998f66ca58b68335751bfd9644f96\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\701998f66ca58b68335751bfd9644f96\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0c6d3466375752ed3af75bdcfb03f7e4\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\0c6d3466375752ed3af75bdcfb03f7e4\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c8cbb490dbe1e7b7bd4cfd0a6fe4b752\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\c8cbb490dbe1e7b7bd4cfd0a6fe4b752\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\10245c8af67386a93ab6b7651d2b5971\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
@@ -253,6 +266,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KBS\.gradle\ca
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\66131341e15412ce34dcfe8c2968d33d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6294a7310ca2716841da0864b00da666\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6294a7310ca2716841da0864b00da666\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b96f432837ab1253be0573f75c7bfff6\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\b96f432837ab1253be0573f75c7bfff6\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\77b30d55eed23e5cdc91e5fe4363a133\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\77b30d55eed23e5cdc91e5fe4363a133\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\ef36b2119ae5c4fcf3276dca9951ebc4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -295,16 +310,16 @@ MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\User
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\976b910d93d505fe7abb02e0fe6ff6f4\firebase-analytics-impl-license-11.8.0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\81a25f747bb9d404951ffa54cf7b5f07\firebase-iid-license-11.8.0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\81a25f747bb9d404951ffa54cf7b5f07\firebase-iid-license-11.8.0\AndroidManifest.xml:4:5-43
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\KBS\Desktop\Sikstagram2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KBS\Desktop\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\Sikstagram-44789a067e1bebb9eab12238de1214e799a681b7\app\src\main\AndroidManifest.xml
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\KBS\.gradle\caches\transforms-2\files-2.1\6537466c5513f1311496cf771bae41a0\jetified-firebase-auth-11.8.0\AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents
