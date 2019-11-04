@@ -68,6 +68,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_savee_black.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xxhdpi\\ic_savee_black.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -84,12 +88,20 @@
         "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_post_item.xml.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\layout\\post_item.xml"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
         "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable\\button_background.xml"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\256b9aced2bb59695e389226adbe035a\\jetified-play-services-base-11.8.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_comment.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_comment.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
@@ -168,6 +180,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\256b9aced2bb59695e389226adbe035a\\jetified-play-services-base-11.8.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_like.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-mdpi\\ic_like.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_crop_image_menu_rotate_right.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\45e0f30dc2469c6921340fc44dff662d\\jetified-android-image-cropper-2.7.0\\res\\drawable-xhdpi-v4\\crop_image_menu_rotate_right.png"
     },
@@ -244,12 +260,12 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\256b9aced2bb59695e389226adbe035a\\jetified-play-services-base-11.8.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
@@ -294,6 +310,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_like.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_like.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -396,6 +416,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_comment.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-hdpi\\ic_comment.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
@@ -496,6 +520,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\color\\abc_tint_default.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_like.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_like.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -554,6 +582,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\256b9aced2bb59695e389226adbe035a\\jetified-play-services-base-11.8.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_comment.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-mdpi\\ic_comment.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
@@ -768,6 +800,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\color\\abc_search_url_text.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_inbox.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_inbox.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_crop_image_menu_rotate_left.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\45e0f30dc2469c6921340fc44dff662d\\jetified-android-image-cropper-2.7.0\\res\\drawable-xhdpi-v4\\crop_image_menu_rotate_left.png"
     },
@@ -838,6 +874,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_savee_black.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-hdpi\\ic_savee_black.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -944,6 +984,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_comment.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xxhdpi\\ic_comment.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\fc882638f6ce9b088fb35341f978c1cb\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
     },
@@ -1010,6 +1054,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_inbox.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-mdpi\\ic_inbox.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1124,6 +1172,14 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_savee_black.xml.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_savee_black.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_savee_black.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_savee_black.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\a5eeeb9eea3e6bb9bbf6364c963c2926\\core-1.0.1\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
@@ -1142,6 +1198,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_comment.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xhdpi\\ic_comment.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notification.xml.flat",
@@ -1194,6 +1254,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Sikstagram\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_comment.xml.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_comment.xml"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search.xml.flat",
@@ -1304,6 +1368,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_savee_black.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_savee_black.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\a5eeeb9eea3e6bb9bbf6364c963c2926\\core-1.0.1\\res\\drawable\\notification_icon_background.xml"
     },
@@ -1332,12 +1400,16 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_close_circle.xml.flat",
+        "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_item_tint.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\color\\mtrl_bottom_nav_colored_item_tint.xml"
     },
     {
-        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_close_circle.xml.flat",
-        "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_like.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xxhdpi\\ic_like.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -1620,6 +1692,10 @@
         "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable\\edittext_background.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_inbox.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_inbox.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -1708,12 +1784,20 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\a5eeeb9eea3e6bb9bbf6364c963c2926\\core-1.0.1\\res\\layout\\notification_template_icon_group.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_inbox.xml.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_inbox.xml"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile.png.flat",
         "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-mdpi\\ic_profile.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\bac26bab6ca39e60fb650ab1e2a752e9\\material-1.0.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_inbox.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-hdpi\\ic_inbox.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1926,6 +2010,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\a5eeeb9eea3e6bb9bbf6364c963c2926\\core-1.0.1\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_like.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xhdpi\\ic_like.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
@@ -2144,6 +2232,10 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_inbox.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xhdpi\\ic_inbox.png"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
@@ -2190,6 +2282,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_savee_black.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-mdpi\\ic_savee_black.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -2320,12 +2416,12 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\256b9aced2bb59695e389226adbe035a\\jetified-play-services-base-11.8.0\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
-        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
@@ -2346,6 +2442,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_like.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-hdpi\\ic_like.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -2444,8 +2544,20 @@
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_comment.png.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_comment.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_like.xml.flat",
+        "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_like.xml"
+    },
+    {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_savee_black.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xhdpi\\ic_savee_black.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -2466,6 +2578,10 @@
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile.png.flat",
         "source": "C:\\Sikstagram\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_inbox.png.flat",
+        "source": "C:\\Sikstagram\\app\\src\\main\\res\\drawable-xxhdpi\\ic_inbox.png"
     },
     {
         "merged": "C:\\Sikstagram\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",

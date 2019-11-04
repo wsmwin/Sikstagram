@@ -1090,14 +1090,18 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add
 drawable ic_close
+drawable ic_comment
 drawable ic_heart
 drawable ic_home
+drawable ic_inbox
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_like
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_profile
+drawable ic_savee_black
 drawable ic_search
 drawable ic_search_light
 drawable logo
@@ -1176,6 +1180,8 @@ id clip_horizontal
 id clip_vertical
 id close
 id collapseActionView
+id comment
+id comments
 id container
 id content
 id contentPanel
@@ -1241,6 +1247,8 @@ id labeled
 id largeLabel
 id left
 id light
+id like
+id likes
 id line1
 id line3
 id listMode
@@ -1280,8 +1288,10 @@ id password
 id percent
 id pin
 id post
+id post_image
 id progress_circular
 id progress_horizontal
+id publisher
 id radio
 id rectangle
 id recycler_view
@@ -1289,6 +1299,7 @@ id register
 id right
 id right_icon
 id right_side
+id save
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1461,6 +1472,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout post_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

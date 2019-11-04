@@ -103,7 +103,7 @@ public class PostActivity extends AppCompatActivity {
                         Uri downloadUri = task.getResult();
                         myUrl = downloadUri.toString();
 
-                        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posta");
+                        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
 
                         String postid = reference.push().getKey();
 
