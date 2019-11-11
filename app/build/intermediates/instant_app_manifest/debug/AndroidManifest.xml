@@ -9,6 +9,9 @@
         android:minSdkVersion="17"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <!-- Required permission for App measurement to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -33,6 +36,9 @@
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.sikstagram.PostActivity" />
         <activity android:name="com.example.sikstagram.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
         <activity android:name="com.example.sikstagram.RegisterActivity" />
         <activity android:name="com.example.sikstagram.LoginActivity" />
         <activity android:name="com.example.sikstagram.StartActivity" >
