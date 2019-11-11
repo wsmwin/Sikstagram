@@ -30,20 +30,23 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import java.util.HashMap;
 
 public class PostActivity extends AppCompatActivity {
-
     Uri imageUri;
-    String myUrl ="";
+    String myUrl = "";
     StorageTask uploadTask;
     StorageReference storageReference;
 
     ImageView close, image_added;
     TextView post;
     EditText description;
+    Classifier classifier;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
+
+        String modelPath = Classifier_Utils.assetFilePath(this, "resnet18_best.pth");
+        classifier = new Classifier(modelPath);
 
         close = findViewById(R.id.close);
         image_added = findViewById(R.id.image_added);
@@ -55,7 +58,7 @@ public class PostActivity extends AppCompatActivity {
         close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PostActivity.this, MainActivity.class ));
+                startActivity(new Intent(PostActivity.this, MainActivity.class));
                 finish();
             }
         });
@@ -68,7 +71,7 @@ public class PostActivity extends AppCompatActivity {
         });
 
         CropImage.activity()
-                .setAspectRatio(1,1)
+                .setAspectRatio(1, 1)
                 .start(PostActivity.this);
     }
 
@@ -85,13 +88,13 @@ public class PostActivity extends AppCompatActivity {
 
         if (imageUri != null) {
             final StorageReference filerfrence = storageReference.child(System.currentTimeMillis()
-            +"."+ getFileExtension(imageUri));
+                    + "." + getFileExtension(imageUri));
 
             uploadTask = filerfrence.putFile(imageUri);
             uploadTask.continueWithTask(new Continuation() {
                 @Override
                 public Object then(@NonNull Task task) throws Exception {
-                    if(!task.isComplete()) {
+                    if (!task.isComplete()) {
                         throw task.getException();
                     }
                     return filerfrence.getDownloadUrl();
@@ -99,7 +102,7 @@ public class PostActivity extends AppCompatActivity {
             }).addOnCompleteListener(new OnCompleteListener<Uri>() {
                 @Override
                 public void onComplete(@NonNull Task<Uri> task) {
-                    if(task.isSuccessful()){
+                    if (task.isSuccessful()) {
                         Uri downloadUri = task.getResult();
                         myUrl = downloadUri.toString();
 
@@ -126,7 +129,7 @@ public class PostActivity extends AppCompatActivity {
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
-                    Toast.makeText(PostActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PostActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
@@ -137,7 +140,7 @@ public class PostActivity extends AppCompatActivity {
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE && resultCode == RESULT_OK) {
+        if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE && resultCode == RESULT_OK) {
             CropImage.ActivityResult result = CropImage.getActivityResult(data);
 
             imageUri = result.getUri();
