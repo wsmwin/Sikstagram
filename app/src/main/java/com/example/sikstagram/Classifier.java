@@ -8,15 +8,19 @@ import org.pytorch.Module;
 import org.pytorch.IValue;
 import org.pytorch.torchvision.TensorImageUtils;
 
+import java.io.File;
+
 
 public class Classifier {
     Module model;
     float[] mean = {0.485f, 0.456f, 0.406f};
     float[] std = {0.229f, 0.224f, 0.225f};
 
-    String[] labelNames = {"가울테리아", "개운죽", "골드크레스트 윌마", "공작야자", "관엽베고니아", "관음죽", "구문초", "구즈마니아", "군자란", "글레코마", "금목서", "금사철나무", "금식나무", "금전수", "금천죽", "기누라", "꽃베고니아", "나도풍란", "나한송", "남천", "네마탄투스", "네오레겔리아", "녹영", "뉴기니아봉선화", "대만고무나무", "더피고사리", "덕구리난", "데코라고무나무", "덴파레", "도깨비고비", "돈나무", "동백", "둥근잎 아랄리아", "듀란타", "드라세나 송오브자마이카", "드라세나 와네끼", "드라세나 송오브인디아", "드라세나 자바", "드라세나 콤팩타", "드라세나 트리컬러 레인보우", "드라세나 드라코", "드라세나 마지나타", "드라세나 맛상게아나", "드라세나 산데리아나", "드라세나 산데리아나 세레스", "드라세나 수르쿨로사", "디지고데카", "디펜바키아 마리안느", "디펜바키아 트로픽스노우", "떡갈잎 고무나무", "러브체인", "렉스베고니아", "루모라고사리", "루스커스", "마란타 류코뉴라", "마삭줄", "만년청", "만데빌라", "멕시코소철", "멜라니 고무나무", "목베고니아", "몬스테라", "무늬관음죽", "무늬마삭줄", "무늬벤자민고무나무", "무늬산호수", "무늬석창포", "무늬쉐플레라홍콩", "무늬알피니아", "무늬유카", "무늬접란", "무늬털머위", "무늬팻츠헤데라", "무늬푸밀라고무나무", "뮤렌베키아", "바위취", "박쥐란", "반딧불털머위", "백량금", "백정화", "백화등", "벤자민고무나무", "벤자민고무나무 킹", "벵갈고무나무", "병솔나무", "보스톤고사리", "봉의꼬리", "부겐빌레아", "브룬펠시아", "브리세아", "비젯티접란", "비타툼접란", "산세베리아", "산세베리아 골든 하니", "산호수", "삼색데코라고무나무", "상록넉줄고사리 후마타", "새우란", "석창포", "세네시오 라디칸스", "세이프릿지 야자", "셀라기넬라", "소철", "소피아 고무나무", "솔레이롤리아", "수박페페로미아", "수박필레아", "수염 틸란드시아", "숙근이베리스", "쉐플레라 홍콩", "스킨답서스", "스파티필룸", "스파티필룸 광엽", "시서스", "시클라멘", "심비디움", "싱고니움", "아글라오네마", "아데니움", "아디안텀", "아라우카리아", "아레카야자", "아마릴리스", "아스파라거스 풀루모수스", "아스플레니움", "아왜나무", "아이비", "아펠란드라", "아프리칸 바이올렛", "안수리움", "알로카시아 아마조니카", "알로카시아 쿠쿨라타", "얼룩자주달개비", "에메랄드리플 페페로미아", "에크메아 파시아타", "엘라티올 베고니아", "여우꼬리풀", "엽란", "옥살리스사랑초", "온시디움", "왜란", "왜성종려죽", "움벨라타 고무나무", "유카", "은사철나무", "익소라", "인삼벤자민", "자금우", "자란", "자주색만년초", "접란", "제라니움", "좀마삭줄", "종려방동사니", "종려죽", "죽백나무", "줄리아 페페로미아", "참쇠고비섬쇠고비", "치자나무", "칼라데아 마코야나", "칼라데아 인시그니스", "칼라데아 크로카타", "칼라디움", "칼랑코에", "커피나무", "켄챠야자", "코르딜리네 레드에지", "크로톤", "크로톤", "크립탄서스", "클레마티스", "털달개비", "털머위", "테이블야자", "톨미아", "틸란드시아", "파키라", "파피오페딜럼", "팔레놉시스호접란", "팔손이나무", "팬더 고무나무", "팻츠헤데라", "페페로미아 오브투시폴리아", "페페로미아 클루시폴리아", "페페로미아 푸테올라타", "포인세티아", "폴리시아스", "푸밀라고무나무", "프테리스", "피라칸사", "피토니아 핑크스타", "피토니아 화이트스타", "픽투라툼 접란", "필레아 글라우카타라", "필로덴드론 선라이트", "필로덴드론 제나두", "필로덴드론 고엘디", "필로덴드론 레몬라임", "필로덴드론 셀로움", "필로덴드론 옥시카르디움", "필로덴드론 콩고", "해마리아", "행운목", "헤미오니티스하트펀", "헤테로파낙스 프라그란스 해피트리", "협죽도", "형광스킨답서스", "호야", "호야 엑소티카", "호주매", "홀리아페페로미아", "황금마삭줄", "황금죽", "후피향나무", "흰꽃나도사프란", "흰줄무늬달개비트라데스칸티아", "히포에스테스" };
+    String[] en_labelNames = {"Gaultheria procumbens", "Dracaena sanderiana Virens", "Cupressus macrocarpa Wilma", "Caryota mitis", "Begonia  spp.", "Rhapis  excelsa", "Pelargonium rosium", "Guzmania lingulata", "Clivia miniata", "Glecoma hederacea Variegata", "Osmanthus fragrans", "Euonymus japonica", "Aucuba japonica  var. variegata", "Zamioculcas zamiifolia", "Dracaena sanderiana", "Gynura aurantiaca", "Begonia semperflorens", "Aerides japonica", "Podocarpus macrophyllus", "Nandina domestica", "Nematanthus gregarius", "Neoregelia carolinae", "Senecio rowleyanus", "Impatiens hybrid New Guinea", "Ficus retusa", "Nephrolepis cordifolia Duffii", "Beaucarnea recurvata (Nolina tuberculata)", "Ficus elastica var. decora", "Dendrobium phalaenopsis", "Cyrtomium falcatum", "Pittosporum tobira", "Camellia japonica", "Polyscias balfouriana", "Duranta reptans", "Dracaena reflexa Song of Jamaica", "Dracaena deremensis Warneckii", "Dracaena reflexa Song of India", "Dracaena angustifolia Java", "Dracaena deremensis Virens Compacta", "Dracaena concinna Tricolor Rainbow", "Dracaena draco", "Dracaena marginata", "Dracaena fragrans var. massangeana", "Dracaena sanderiana", "Dracaena sanderiana Celes", "Dracaena surculosa (D. godseffiana)", "Dizygotheca elegantissima", "Dieffenbachia Marianne", "Dieffenbachia amoena Tropic snow", "Ficus lyrata", "Ceropegia woodii", "Begonia rex", "Rumohra adiantiformis", "Ruscus spp.", "Maranta leuconeura", "Trachelospermum asiaticum", "Rohdea japonica", "Mandevilla sanderi", "Zamia pumila", "Ficus elastica Robusta", "Begonia lucerna", "Monstera deliciosa", "Rhapis excelsa Variegata", "Trachelospermum asiaticum var.variegatum", "Ficus benjamina Variegata", "Ardisia pusilla Variegata", "Acorus gramineus var. variegatus", "Schefflera arboricola Hong Kong Variegata", "Alpinia zerumbet Variegata", "Yucca elephantipes Variegata", "Chlorophytum comosum var. variegatum", "Farfugium japonicum Argenteum", "Fatshedera lizei Variegata", "Ficus pumila Variegata", "Muehlenbeckia complexa", "Saxifraga stolonifera", "Platycerium  bifurcatum", "Farfugium japonicum", "Ardisia crenata", "Serissa foetida", "Trachelospermum asiaticum var. majus", "Ficus benjamina", "Ficus benjamina King", "Ficus benghalensis", "Callistemon spp.", "Nephrolepis exaltata Bostoniensis", "Pteris multifida", "Bougainvillea glabra", "Brunfelsia australis Bench", "Vriesea", "Chlorophytum bichetii", "Chlorophytum comosum var. vittatum", "Sansevieria trifasciata", "Sansevieria trifasciata Golden Hahnii", "Ardisia pusilla", "Decora elastica Decora Tricolor", "Humata tyermannii (Davallia griffithiana)", "Calanthe discolor spp.", "Acorus gramineus", "Senecio radicans", "Chamaedorea seifrizii Burret", "Selaginella", "Cycas revoluta", "Ficus elastica Sofia", "Soleirolia soleirolii", "Peperomia sandersii", "Pilea cadierei", "Tillandsia usneoides", "Iberis sempervirens", "Schefflera arboricola", "Epipremnum aureum", "Spathiphyllum wallisii", "Spathiphyllum Clevelandii", "Cissus antarctica", "Cyclamen persicum", "Cymbidium spp.", "Syngonium podophyllum", "Aglaonema commutatum", "Adenium obesum", "Adiantum raddianum", "Araucaria heterophylla", "Chrysalidocarpus lutescens", "Hippeastrum hybridum", "Asparagus pulmosus var. nanus", "Asplenium nidus", "Viburnum odoratissimum var. awabuki", "Hedera helix", "Aphelandra squarrosa", "Saintpaulia spp.", "Anthurium andraeanum", "Alocasia amazonica", "Alocasia cucullata", "Zebrina pendula", "Peperomia caperata", "Aechmea fasciata", "Begonia X hiemalis", "Acalypha reptans", "Aspidistra elatior", "Oxalis triangularis", "Oncidium spp.", "Ophiopogon japonicus", "Rhapis multifida", "Ficus umbellata", "Yucca", "Euonymus japonica Albomarginata", "Ixora chinensis", "Ficus microcarpa Ginseng", "Ardisia japonica", "Bletilla striata", "Rhoeo discolor", "Chlorophytum comosum", "Pelargonium hortorum", "Trachelospermum Atsuba Chirimen", "Cyperus alternifolius", "Rhapis humilis", "Podocarous nagi", "Peperomia puteolata", "Cyrtomium caryotideum var. koreanum", "Gardenia jasminoides", "Calathea makoyana", "Calathea insignis", "Calathea crocata", "Caladium bicolor (hortulantum) Vent.", "Kalanchoe blossfeldiana", "Coffea arabica", "Howea forsteriana", "Cordyline terminalis Rededge", "Codiaeum variegatum", "Codiaeum variegatum var. pictum", "Cryptanthus spp.", "Clematis florida", "Tradescantia sillamontana", "Farfugium japonicum", "Chamaedorea elegans", "Tolmiea menziesii", "Tillandsia cyanea", "Pachira aquatica", "Paphiopedilum hybrids", "Phaelenopsis spp.", "Fatsia japonica", "Ficus panda", "Fatshedera lizei", "Peperomia obtusifolia", "Peperomia clusiifolia", "Peperomia puteolata", "Euphorbia pulcherrima", "Polyscias balfouriana Marginata", "Ficus pumila", "Pteris cretica", "Pyracantha coccinea", "Fittonia  verschaffeltii Pink Star", "Fittonia  verschaffelti White Star", "Chlorophytum comosum Picturatum", "Pilea grauca", "Philodendron Sunlight", "Philodendron Xanadu", "Philodendron goeldii", "Philodendron Lemon Lime", "Philodendron selloum", "Philodendron oxycardium", "Philodendron Congo", "Haemaria discolor var. dawsoniana", "Dracaena fragrans", "Hemionitis arifolia", "Heteropanax fragrans", "Nerium indicum", "Epipremnum aureum Lime", "Hoya carnosa", "Hoya carnosa Exotica Hort", "Leptospermum scoparium", "Peperomia angula", "Trachelospermum asiaticum var. variegatum", "Dracaena sanderiana", "Ternstroemia japonica", "Zephyranthes candida", "Tradescantia albiflora Kunth Albovittata", "Hypoestes phyllostachya (H. sanguinnolenta)"};
+    String[] kor_labelNames = {""}; // TODO: Add Kor Names
 
     public Classifier(String modelPath) {
+        File file = new File(modelPath);
         model = Module.load(modelPath);
     }
 
@@ -49,7 +53,7 @@ public class Classifier {
         return topIndexes;
     }
 
-    public String[] predict(Bitmap bitmap) {
+    public String[] predict(Bitmap bitmap, String language) {
         Matrix matrix = new Matrix();
         matrix.postScale(0.5f, 0.5f);
         Bitmap croppedBitmap = Bitmap.createBitmap(bitmap,
@@ -60,8 +64,14 @@ public class Classifier {
         Tensor outputs = model.forward(inputs).toTensor();
         float[] scores = outputs.getDataAsFloatArray();
         int[] classIndexes = argMax(scores);
-        String[] results = {labelNames[classIndexes[0]], labelNames[classIndexes[1]], labelNames[classIndexes[2]], labelNames[classIndexes[3]], labelNames[classIndexes[4]]};
-
-        return results;
+        if(language == "en") {
+            String[] results = {en_labelNames[classIndexes[0]], en_labelNames[classIndexes[1]], en_labelNames[classIndexes[2]], en_labelNames[classIndexes[3]], en_labelNames[classIndexes[4]]};
+            return results;
+        }else if(language == "kor"){
+            String[] results = {kor_labelNames[classIndexes[0]], kor_labelNames[classIndexes[1]], kor_labelNames[classIndexes[2]], kor_labelNames[classIndexes[3]], kor_labelNames[classIndexes[4]]};
+            return results;
+        }else{
+            throw new IllegalArgumentException(language);
+        }
     }
 }

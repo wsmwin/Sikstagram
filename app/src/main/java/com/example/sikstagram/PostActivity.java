@@ -6,8 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
@@ -27,6 +29,7 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.theartofdev.edmodo.cropper.CropImage;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class PostActivity extends AppCompatActivity {
@@ -45,7 +48,7 @@ public class PostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
 
-        String modelPath = Classifier_Utils.assetFilePath(this, "resnet18_best.pth");
+        String modelPath = Classifier_Utils.assetFilePath(this, "traced_MobileNetV2_best.pth");
         classifier = new Classifier(modelPath);
 
         close = findViewById(R.id.close);
@@ -146,11 +149,21 @@ public class PostActivity extends AppCompatActivity {
             imageUri = result.getUri();
 
             image_added.setImageURI(imageUri);
+
+            try{
+                Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), imageUri);
+                String[] results = classifier.predict(bitmap, "en");
+
+                // TODO: do something with String[] results
+
+            }catch (Exception e){
+                e.printStackTrace(); // TODO: Error Handle
+            }
+
         } else {
             Toast.makeText(this, "Something gone wrong!", Toast.LENGTH_SHORT).show();
             startActivity(new Intent(PostActivity.this, MainActivity.class));
             finish();
         }
     }
-
 }
