@@ -1,14 +1,10 @@
 package com.example.sikstagram;
 
 import android.content.Intent;
-//import android.support.v7.app.AppCompatActivity;
-
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ViewAnimator;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,9 +21,10 @@ public class StartActivity extends AppCompatActivity {
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
-        // redirect if user is not null
-        if(firebaseUser != null) {
-            startActivity(new Intent(StartActivity.this, MainActivity.class));
+        //check if user is null
+        if (firebaseUser != null){
+            Intent intent = new Intent(StartActivity.this, MainActivity.class);
+            startActivity(intent);
             finish();
         }
     }
@@ -42,16 +39,17 @@ public class StartActivity extends AppCompatActivity {
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent (StartActivity.this, LoginActivity.class));
+            public void onClick(View view) {
+                startActivity(new Intent(StartActivity.this, LoginActivity.class));
             }
         });
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 startActivity(new Intent(StartActivity.this, RegisterActivity.class));
             }
         });
+
     }
 }

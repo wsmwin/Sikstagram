@@ -3,32 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="12dp"
     android:orientation="vertical"
-    tools:context=".StartActivity">
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.sikstagram.StartActivity">
 
-   <ImageView
-       android:layout_width="wrap_content"
-       android:layout_height="50dp"
-       android:src="@drawable/logo"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="Log in"
         android:id="@+id/login"
-        android:layout_marginTop="15dp"
         android:textColor="@color/colorPrimary"
         android:background="@drawable/button_background"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="Register"
         android:id="@+id/register"
-        android:layout_marginTop="15dp"
         android:textColor="@color/colorPrimary"
         android:background="@drawable/button_background"/>
 

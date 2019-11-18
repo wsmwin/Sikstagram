@@ -5,45 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PostActivity">
+    tools:context="com.example.sikstagram.PostActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"
-        android:id="@+id/bar">
+        android:background="?android:attr/windowBackground">
 
-        <androidx.appcompat.widget.Toolbar
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?android:attr/windowBackground"
-            android:id="@+id/toolbar">
+            android:background="?android:attr/windowBackground">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
                     android:src="@drawable/ic_close"
-                    android:id="@+id/close"/>
+                    android:id="@+id/close"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
                     android:text="POST"
                     android:id="@+id/post"
                     android:textSize="16sp"
-                    android:layout_marginEnd="10dp"
                     android:layout_centerVertical="true"
-                    android:layout_alignParentEnd="true"
-                    android:textColor="@color/colorPrimary"/>
+                    android:textColor="@color/colorPrimary"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
             </RelativeLayout>
 
-        </androidx.appcompat.widget.Toolbar>
-    </com.google.android.material.appbar.AppBarLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,8 +67,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:hint="Description"
-            android:maxLines="5"
-            android:id="@+id/description"/>
+            android:id="@+id/description"
+            android:maxLines="5"/>
 
     </LinearLayout>
+
 </LinearLayout>

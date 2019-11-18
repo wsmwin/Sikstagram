@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.pytorch:pytorch_android_torchvision:1.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pytorch_android_torchvision-1.3.1.aar/2b792496e083eef088737b24ccc4edbe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pytorch_android_torchvision-1.3.1.aar/2b792496e083eef088737b24ccc4edbe/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pytorch/pytorch_android_torchvision/1.3.1/1a6b372196897f292f499fb9697c3a189900b2c1/pytorch_android_torchvision-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pytorch/pytorch_android_torchvision/1.3.1/ab2f2da24199c4938782b788304b9ad43766515a/pytorch_android_torchvision-1.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

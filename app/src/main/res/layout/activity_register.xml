@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     android:padding="10dp"
-    tools:context=".RegisterActivity">
+    android:gravity="center"
+    tools:context="com.example.sikstagram.RegisterActivity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -19,17 +19,17 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_background"
         android:hint="Username"
-        android:layout_marginTop="15dp"
         android:id="@+id/username"
+        android:layout_marginTop="15dp"
         android:padding="10dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_background"
-        android:hint="Full Name"
-        android:layout_marginTop="15dp"
+        android:hint="Full name"
         android:id="@+id/fullname"
+        android:layout_marginTop="15dp"
         android:padding="10dp"/>
 
     <EditText
@@ -37,9 +37,9 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_background"
         android:hint="Email"
-        android:layout_marginTop="15dp"
-        android:inputType="textEmailAddress"
         android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
         android:padding="10dp"/>
 
     <EditText
@@ -47,26 +47,25 @@
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_background"
         android:hint="Password"
-        android:layout_marginTop="15dp"
         android:id="@+id/password"
         android:inputType="textPassword"
+        android:layout_marginTop="15dp"
         android:padding="10dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/register"
+        android:layout_marginTop="15dp"
         android:text="Register"
+        android:id="@+id/register"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/button_background"
-        android:layout_marginTop="15dp"/>
+        android:background="@drawable/button_background"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already have an account? Log in"
+        android:text="Already have an sccount? Log in"
         android:id="@+id/txt_login"
         android:layout_marginTop="10dp"/>
-
 
 </LinearLayout>
