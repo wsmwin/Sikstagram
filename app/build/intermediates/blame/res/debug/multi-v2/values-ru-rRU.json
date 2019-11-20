@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Sikstagram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "outputFile": "C:\\Users\\IBK\\lib\\Sikstagram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SJW\\.gradle\\caches\\transforms-2\\files-2.1\\45e0f30dc2469c6921340fc44dff662d\\jetified-android-image-cropper-2.7.0\\res\\values-ru-rRU\\values-ru-rRU.xml",
+                    "source": "C:\\Users\\IBK\\.gradle\\caches\\transforms-2\\files-2.1\\e5e5e1a949780231f1d76f7dd7e60a50\\jetified-android-image-cropper-2.7.0\\res\\values-ru-rRU\\values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
