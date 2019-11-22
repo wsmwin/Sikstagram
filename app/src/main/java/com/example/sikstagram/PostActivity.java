@@ -51,7 +51,7 @@ public class PostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
 
-        String modelPath = Classifier_Utils.assetFilePath(this, "traced_MobileNetV2_best.pth");
+        String modelPath = Classifier_Utils.assetFilePath(this, "traced_mobilenet_v2_dataset_v2_best.pth");
         classifier = new Classifier(modelPath);
 
         close = findViewById(R.id.close);
@@ -158,7 +158,7 @@ public class PostActivity extends AppCompatActivity {
 
             try{
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), mImageUri);
-                String[] results = classifier.predict(bitmap, "en");
+                String[] results = classifier.predict(bitmap, "kor");
 
                 Toast.makeText(this, results[0]+"\n"+results[1]+"\n"+results[2]+"\n"+results[3]+"\n"+results[4], Toast.LENGTH_LONG).show();
 
