@@ -3,10 +3,12 @@ package com.example.sikstagram;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
@@ -157,7 +159,9 @@ public class PostActivity extends AppCompatActivity {
             try{
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), mImageUri);
                 String[] results = classifier.predict(bitmap, "en");
+
                 Toast.makeText(this, results[0]+"\n"+results[1]+"\n"+results[2]+"\n"+results[3]+"\n"+results[4], Toast.LENGTH_LONG).show();
+
                 // TODO: do something with String[] results
 
             }catch (Exception e){
