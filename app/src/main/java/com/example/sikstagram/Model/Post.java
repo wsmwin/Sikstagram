@@ -5,12 +5,16 @@ public class Post {
     private String postimage;
     private String description;
     private String publisher;
+    private String pltnumber;
+    private String pltname;
 
-    public Post(String postid, String postimage, String description, String publisher) {
+    public Post(String postid, String postimage, String description, String publisher, String pltname, String pltnumber) {
         this.postid = postid;
         this.postimage = postimage;
         this.description = description;
         this.publisher = publisher;
+        this.pltname = pltname;
+        this.pltnumber=pltnumber;
     }
 
     public Post() {
@@ -46,5 +50,21 @@ public class Post {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public String getPltname() {
+        return pltname;
+    }
+
+    public void setPltname(String pltname) {
+        this.pltname = pltname;
+    }
+
+    public String getPltnumber() {
+        return pltnumber;
+    }
+
+    public void setPltnumber(String pltnumber) {
+        this.pltnumber = pltnumber;
     }
 }

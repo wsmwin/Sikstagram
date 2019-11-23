@@ -1,6 +1,7 @@
 package com.example.sikstagram;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,7 +11,7 @@ import java.util.concurrent.ExecutionException;
 
 public class ImageUrl_Convertor {
 
-    String [] url_tails = {"_MF_ATTACH_01.jpg","_MF_REPR_ATTACH_01.jpg","_MF_REPR_ATTACH_01.gif","_MF_ATTACH_01.JPG","_MF_REPR_ATTACH_01.JPG"};
+    private String [] url_tails = {"_MF_ATTACH_01.jpg","_MF_REPR_ATTACH_01.jpg","_MF_REPR_ATTACH_01.gif","_MF_ATTACH_01.JPG","_MF_REPR_ATTACH_01.JPG"};
 
     public String getUrl(String plt_code) {
         MyTask task= new MyTask();
