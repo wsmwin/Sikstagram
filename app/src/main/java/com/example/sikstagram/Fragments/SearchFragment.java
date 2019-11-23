@@ -3,6 +3,7 @@ package com.example.sikstagram.Fragments;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
@@ -12,6 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
+import com.example.sikstagram.Adapter.MyFotosAdapter;
+import com.example.sikstagram.Model.Post;
 import com.example.sikstagram.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,6 +28,7 @@ import com.example.sikstagram.Adapter.UserAdapter;
 import com.example.sikstagram.Model.User;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SearchFragment extends Fragment {
@@ -32,6 +36,11 @@ public class SearchFragment extends Fragment {
     private RecyclerView recyclerView;
     private UserAdapter userAdapter;
     private List<User> userList;
+
+
+    private RecyclerView recyclerView2;
+    private MyFotosAdapter myFotosAdapter;
+    private List<Post> postList;
 
     EditText search_bar;
 
@@ -44,11 +53,27 @@ public class SearchFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
+        recyclerView2 = view.findViewById(R.id.recycler_view2);
+        recyclerView2.setHasFixedSize(true);
+        recyclerView2.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        recyclerView2 = view.findViewById(R.id.recycler_view2);
+        recyclerView2.setHasFixedSize(true);
+        LinearLayoutManager mLayoutManager = new GridLayoutManager(getContext(), 3);
+        recyclerView2.setLayoutManager(mLayoutManager);
+        postList = new ArrayList<>();
+        myFotosAdapter = new MyFotosAdapter(getContext(), postList);
+        recyclerView2.setAdapter(myFotosAdapter);
+
         search_bar = view.findViewById(R.id.search_bar);
 
         userList = new ArrayList<>();
         userAdapter = new UserAdapter(getContext(), userList, true);
         recyclerView.setAdapter(userAdapter);
+
+
+        recyclerView.setVisibility(View.VISIBLE);
+        recyclerView2.setVisibility(View.GONE);
 
         readUsers();
         search_bar.addTextChangedListener(new TextWatcher() {
@@ -59,7 +84,15 @@ public class SearchFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                searchUsers(charSequence.toString().toLowerCase());
+                if(charSequence.toString().contains("#")){
+                    recyclerView2.setVisibility(View.VISIBLE);
+                    recyclerView.setVisibility(View.GONE);
+                    myFotos();
+                }else {
+                    recyclerView.setVisibility(View.VISIBLE);
+                    recyclerView2.setVisibility(View.GONE);
+                    searchUsers(charSequence.toString().toLowerCase());
+                }
             }
 
             @Override
@@ -118,6 +151,29 @@ public class SearchFragment extends Fragment {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    private void myFotos(){
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                postList.clear();
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()){
+                    Post post = snapshot.getValue(Post.class);
+                    if (post.getPltname().contains(search_bar.getText().toString().substring(1, search_bar.getText().length()))){
+                        postList.add(post);
+                    }
+                }
+                Collections.reverse(postList);
+                myFotosAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
 
             }
         });

@@ -14,7 +14,7 @@ public class Post {
         this.description = description;
         this.publisher = publisher;
         this.pltname = pltname;
-        this.pltnumber=pltnumber;
+        this.pltnumber= pltnumber;
     }
 
     public Post() {

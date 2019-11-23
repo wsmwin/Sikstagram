@@ -11,6 +11,7 @@ import android.widget.ProgressBar;
 
 import com.example.sikstagram.R;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -33,11 +34,14 @@ public class HomeFragment extends Fragment {
     private List<String> followingList;
 
     ProgressBar progress_circular;
+    FirebaseUser firebaseUser;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
         recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
@@ -99,6 +103,8 @@ public class HomeFragment extends Fragment {
                         if (post.getPublisher().equals(id)){
                             postList.add(post);
                         }
+                    }   if(post.getPublisher().equals(firebaseUser.getUid())) {
+                        postList.add(post);
                     }
                 }
 

@@ -90,7 +90,7 @@ public class RegisterActivity extends AppCompatActivity {
                             map.put("id", userID);
                             map.put("username", username.toLowerCase());
                             map.put("fullname", fullname);
-                            map.put("imageurl", "https://firebasestorage.googleapis.com/v0/b/instagramtest-fcbef.appspot.com/o/placeholder.png?alt=media&token=b09b809d-a5f8-499b-9563-5252262e9a49");
+                            map.put("imageurl", "https://firebasestorage.googleapis.com/v0/b/sikstagram.appspot.com/o/sikstagram.png?alt=media&token=a06edc97-f610-4bd6-9cee-04205ff64a40");
                             map.put("bio", "");
 
                             reference.setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
