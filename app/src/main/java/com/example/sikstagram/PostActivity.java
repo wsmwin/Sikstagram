@@ -228,7 +228,7 @@ public class PostActivity extends AppCompatActivity {
     private View.OnClickListener onClickListener(final int i) {
 
         plt_name.invalidate();
-
+        Toast.makeText(this, kr_name.get(0)+" "+kr_name.get(1)+" "+kr_name.get(2)+" "+kr_name.get(3)+" "+kr_name.get(4), Toast.LENGTH_LONG).show();
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -236,13 +236,13 @@ public class PostActivity extends AppCompatActivity {
                     //next page
                     if (viewPager.getCurrentItem() < viewPager.getAdapter().getCount() - 1) {
                         viewPager.setCurrentItem(viewPager.getCurrentItem() + 1);
-                        plt_name.setText(kr_name.get(plt_index++));
+                        plt_name.setText(kr_name.get(++plt_index));
                     }
                 } else {
                     //previous page
                     if (viewPager.getCurrentItem() > 0) {
                         viewPager.setCurrentItem(viewPager.getCurrentItem() - 1);
-                        plt_name.setText(kr_name.get(plt_index--));
+                        plt_name.setText(kr_name.get(--plt_index));
                     }
                 }
             }
@@ -260,7 +260,7 @@ public class PostActivity extends AppCompatActivity {
             Bitmap bitmap = cvrt.getImageBitmap(images.get(i), options);
             imageView.setImageBitmap(bitmap);
             //set to image view
-            imageView.setImageBitmap(bitmap);
+//            imageView.setImageBitmap(bitmap);
             //add imageview
 //            thumbnailsContainer.addView(imageLayout);
         }
