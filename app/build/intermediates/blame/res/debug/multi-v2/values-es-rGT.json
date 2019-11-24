@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\IBK\\lib\\Sikstagram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rGT\\values-es-rGT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IBK\\.gradle\\caches\\transforms-2\\files-2.1\\e5e5e1a949780231f1d76f7dd7e60a50\\jetified-android-image-cropper-2.7.0\\res\\values-es-rGT\\values-es-rGT.xml",
+                    "source": "C:\\Users\\IBK\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.7.0.aar\\b93b75c5e4732a96a1d275466678706c\\res\\values-es-rGT\\values-es-rGT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

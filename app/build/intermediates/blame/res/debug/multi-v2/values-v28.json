@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\IBK\\lib\\Sikstagram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IBK\\.gradle\\caches\\transforms-2\\files-2.1\\face7fcf7963d093ab35106d5bb41ddd\\appcompat-1.0.2\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\IBK\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\88053fd685ab0062d059dd16939661a4\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

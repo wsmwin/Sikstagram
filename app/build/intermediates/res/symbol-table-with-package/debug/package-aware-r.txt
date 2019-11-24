@@ -424,6 +424,37 @@ attr maxButtonHeight
 attr maxImageSize
 attr measureWithLargestChild
 attr menu
+attr met_accentTypeface
+attr met_autoValidate
+attr met_baseColor
+attr met_bottomTextSize
+attr met_checkCharactersCountAtBeginning
+attr met_clearButton
+attr met_errorColor
+attr met_floatingLabel
+attr met_floatingLabelAlwaysShown
+attr met_floatingLabelAnimating
+attr met_floatingLabelPadding
+attr met_floatingLabelText
+attr met_floatingLabelTextColor
+attr met_floatingLabelTextSize
+attr met_helperText
+attr met_helperTextAlwaysShown
+attr met_helperTextColor
+attr met_hideUnderline
+attr met_iconLeft
+attr met_iconPadding
+attr met_iconRight
+attr met_maxCharacters
+attr met_minBottomTextLines
+attr met_minCharacters
+attr met_primaryColor
+attr met_singleLineEllipsis
+attr met_textColor
+attr met_textColorHint
+attr met_typeface
+attr met_underlineColor
+attr met_validateOnFocusLost
 attr multiChoiceItemLayout
 attr navigationContentDescription
 attr navigationIcon
@@ -450,6 +481,7 @@ attr preserveIconSpacing
 attr pressedTranslationZ
 attr progressBarPadding
 attr progressBarStyle
+attr progressCount
 attr queryBackground
 attr queryHint
 attr radioButtonStyle
@@ -650,8 +682,10 @@ color cardview_shadow_end_color
 color cardview_shadow_start_color
 color colorAccent
 color colorBlack
+color colorGreen
 color colorPrimary
 color colorPrimaryDark
+color colorWindow
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -684,6 +718,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray_scale
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -735,6 +770,9 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color progress_max_active
+color progress_primary
+color progress_secondary
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -750,6 +788,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -825,6 +864,8 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen bottom_ellipsis_height
+dimen bottom_text_size
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -835,6 +876,8 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen default_padding_bottom
+dimen default_padding_top
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -884,6 +927,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen floating_label_text_size
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -891,6 +935,9 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen inner_components_spacing
+dimen inner_padding_left
+dimen inner_padding_right
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -957,6 +1004,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen progress_bar_height
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -1053,10 +1101,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_story
 drawable avd_hide_password
 drawable avd_show_password
-drawable button_back
 drawable button_background
+drawable button_black
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1091,20 +1140,26 @@ drawable googleg_standard_color_18
 drawable ic_add
 drawable ic_close
 drawable ic_comment
+drawable ic_grid
 drawable ic_heart
 drawable ic_home
 drawable ic_inbox
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_like
+drawable ic_liked
+drawable ic_more
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_profile
+drawable ic_save
+drawable ic_save_black
 drawable ic_savee_black
 drawable ic_search
-drawable ic_search_light
+drawable ic_settings
 drawable logo
+drawable met_ic_clear
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1120,6 +1175,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder
+drawable story_delete
+drawable story_view
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1152,6 +1210,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_comment
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1159,9 +1218,11 @@ id all
 id always
 id async
 id auto
+id back_progress
 id bar
 id barrier
 id beginning
+id bio
 id blocking
 id bottom
 id bottom_navigation
@@ -1198,6 +1259,7 @@ id customPanel
 id dark
 id decor_content_parent
 id default_activity_button
+id delete
 id description
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -1207,6 +1269,8 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id edit
+id edit_profile
 id edit_query
 id email
 id end
@@ -1222,14 +1286,18 @@ id fill_vertical
 id filled
 id fitCenter
 id fixed
+id followers
+id following
 id forever
 id fragment_container
+id front_progress
 id fullname
 id ghost_view
 id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
+id highlight
 id home
 id homeAsUp
 id icon
@@ -1245,6 +1313,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id last_bar
 id left
 id light
 id like
@@ -1254,14 +1323,20 @@ id line3
 id listMode
 id list_item
 id login
+id logo
+id logout
 id masked
+id max_progress
 id media_actions
 id message
+id mid_bar
 id middle
 id mini
+id more
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id my_fotos
 id nav_add
 id nav_heart
 id nav_home
@@ -1277,6 +1352,7 @@ id notification_main_column_container
 id off
 id on
 id onTouch
+id options
 id outline
 id oval
 id packed
@@ -1289,12 +1365,15 @@ id percent
 id pin
 id post
 id post_image
+id posts
 id progress_circular
 id progress_horizontal
 id publisher
 id radio
 id rectangle
 id recycler_view
+id recycler_view_save
+id recycler_view_story
 id register
 id right
 id right_icon
@@ -1303,6 +1382,7 @@ id save
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
+id saved_fotos
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1363,12 +1443,14 @@ id title_template
 id toolbar
 id top
 id topPanel
+id top_bar
 id touch_outside
 id transition_current_scene
 id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_change
 id txt_login
 id txt_signup
 id uniform
@@ -1430,11 +1512,16 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_comments
+layout activity_edit_profile
+layout activity_followers
 layout activity_login
 layout activity_main
+layout activity_options
 layout activity_post
 layout activity_register
 layout activity_start
+layout comment_item
 layout crop_image_activity
 layout crop_image_view
 layout design_bottom_navigation_item
@@ -1451,12 +1538,15 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fotos_item
 layout fragment_home
 layout fragment_notification
+layout fragment_post_detail
 layout fragment_profile
 layout fragment_search
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
+layout notificaion_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1472,6 +1562,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pausable_progress
 layout post_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -1480,6 +1571,7 @@ layout support_simple_spinner_dropdown_item
 layout user_item
 menu bottom_navigation
 menu crop_image_menu
+menu post_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -2128,6 +2220,7 @@ styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom backgroundTint backgroundTintMode cornerRadius icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor strokeColor strokeWidth
 styleable MaterialCardView strokeColor strokeWidth
 styleable MaterialComponentsTheme bottomSheetDialogTheme bottomSheetStyle chipGroupStyle chipStandaloneStyle chipStyle colorAccent colorBackgroundFloating colorPrimary colorPrimaryDark colorSecondary editTextStyle floatingActionButtonStyle materialButtonStyle materialCardViewStyle navigationViewStyle scrimBackground snackbarButtonStyle tabStyle textAppearanceBody1 textAppearanceBody2 textAppearanceButton textAppearanceCaption textAppearanceHeadline1 textAppearanceHeadline2 textAppearanceHeadline3 textAppearanceHeadline4 textAppearanceHeadline5 textAppearanceHeadline6 textAppearanceOverline textAppearanceSubtitle1 textAppearanceSubtitle2 textInputStyle
+styleable MaterialEditText met_accentTypeface met_autoValidate met_baseColor met_bottomTextSize met_checkCharactersCountAtBeginning met_clearButton met_errorColor met_floatingLabel met_floatingLabelAlwaysShown met_floatingLabelAnimating met_floatingLabelPadding met_floatingLabelText met_floatingLabelTextColor met_floatingLabelTextSize met_helperText met_helperTextAlwaysShown met_helperTextColor met_hideUnderline met_iconLeft met_iconPadding met_iconRight met_maxCharacters met_minBottomTextLines met_minCharacters met_primaryColor met_singleLineEllipsis met_textColor met_textColorHint met_typeface met_underlineColor met_validateOnFocusLost
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
@@ -2145,6 +2238,7 @@ styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
+styleable StoriesProgressView progressCount
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable TabItem android_icon android_layout android_text
 styleable TabLayout tabBackground tabContentStart tabGravity tabIconTint tabIconTintMode tabIndicator tabIndicatorAnimationDuration tabIndicatorColor tabIndicatorFullWidth tabIndicatorGravity tabIndicatorHeight tabInlineLabel tabMaxWidth tabMinWidth tabMode tabPadding tabPaddingBottom tabPaddingEnd tabPaddingStart tabPaddingTop tabRippleColor tabSelectedTextColor tabTextAppearance tabTextColor tabUnboundedRipple
