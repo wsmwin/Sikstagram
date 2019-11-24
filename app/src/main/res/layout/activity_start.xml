@@ -11,8 +11,8 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:src="@drawable/logo"/>
+        android:layout_height="140dp"
+        android:src="@drawable/logo" />
 
     <Button
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:text="Log in"
         android:id="@+id/login"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/button_background"/>
+        android:background="#F0F8EE"/>
 
     <Button
         android:layout_width="match_parent"
@@ -30,6 +30,6 @@
         android:text="Register"
         android:id="@+id/register"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/button_background"/>
+        android:background="#F0F8EE"/>
 
 </LinearLayout>
