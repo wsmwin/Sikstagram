@@ -25,6 +25,7 @@ import com.example.sikstagram.Fragments.PostDetailFragment;
 import com.example.sikstagram.Fragments.ProfileFragment;
 import com.example.sikstagram.Fragments.SearchFragment;
 import com.example.sikstagram.R;
+import com.example.sikstagram.display_plant_info;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -227,6 +228,12 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
                                             }
                                         });
                                 return true;
+                            case R.id.Plant_info:
+                                final String pltNumber=post.getPltnumber();
+                                Intent tmp = new Intent(mContext,display_plant_info.class);
+                                tmp.putExtra("pltCode",pltNumber);
+                                mContext.startActivity(tmp);
+                                return true;
                             default:
                                 return false;
                         }
@@ -236,6 +243,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
                 if (!post.getPublisher().equals(firebaseUser.getUid())){
                     popupMenu.getMenu().findItem(R.id.edit).setVisible(false);
                     popupMenu.getMenu().findItem(R.id.delete).setVisible(false);
+                    popupMenu.getMenu().findItem(R.id.Plant_info).setVisible(true);
                 }
                 popupMenu.show();
             }

@@ -8,5 +8,5 @@
         android:title="Delete"/>
 
     <item android:id="@+id/Plant_info"
-        android:title="Plant_information"/>
+        android:title="Plant information"/>
 </menu>
