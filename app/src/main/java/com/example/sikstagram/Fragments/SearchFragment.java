@@ -1,5 +1,6 @@
 package com.example.sikstagram.Fragments;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -31,6 +32,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import static android.content.Context.MODE_PRIVATE;
+
 public class SearchFragment extends Fragment {
 
     private RecyclerView recyclerView;
@@ -43,6 +46,7 @@ public class SearchFragment extends Fragment {
     private List<Post> postList;
 
     EditText search_bar;
+    String search_plant;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -74,6 +78,15 @@ public class SearchFragment extends Fragment {
 
         recyclerView.setVisibility(View.VISIBLE);
         recyclerView2.setVisibility(View.GONE);
+
+        SharedPreferences prefs = getContext().getSharedPreferences("PREFS", MODE_PRIVATE);
+        search_plant = prefs.getString("userplant", "none");
+        if(search_plant.length()>1){
+            search_bar.setText(("#"+search_plant));
+            recyclerView2.setVisibility(View.VISIBLE);
+            recyclerView.setVisibility(View.GONE);
+            myFotos();
+        }
 
         readUsers();
         search_bar.addTextChangedListener(new TextWatcher() {
@@ -115,7 +128,7 @@ public class SearchFragment extends Fragment {
                 userList.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()){
                     User user = snapshot.getValue(User.class);
-                        userList.add(user);
+                    userList.add(user);
                 }
 
                 userAdapter.notifyDataSetChanged();

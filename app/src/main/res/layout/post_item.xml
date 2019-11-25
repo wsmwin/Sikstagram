@@ -37,6 +37,16 @@
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userplant"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#228762"
+                android:layout_margin="10dp"/>
+
         </LinearLayout>
 
         <android.support.constraint.ConstraintLayout

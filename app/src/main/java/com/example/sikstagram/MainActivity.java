@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
                             selectedfragment = new HomeFragment();
                             break;
                         case R.id.nav_search:
+                            SharedPreferences.Editor editor = getSharedPreferences("PREFS", MODE_PRIVATE).edit();
+                            editor.putString("userplant", "");
+                            editor.apply();
                             selectedfragment = new SearchFragment();
                             break;
                         case R.id.nav_add:
@@ -66,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                             selectedfragment = new NotificationFragment();
                             break;
                         case R.id.nav_profile:
-                            SharedPreferences.Editor editor = getSharedPreferences("PREFS", MODE_PRIVATE).edit();
+                            editor = getSharedPreferences("PREFS", MODE_PRIVATE).edit();
                             editor.putString("profileid", FirebaseAuth.getInstance().getCurrentUser().getUid());
                             editor.apply();
                             selectedfragment = new ProfileFragment();

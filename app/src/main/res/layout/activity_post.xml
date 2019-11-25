@@ -138,7 +138,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="15dp"
-            android:hint="Notice plant name"
+            android:hint="Write plant name yourself"
             android:id="@+id/extra_label"
             android:maxLines="5"/>
 
