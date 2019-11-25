@@ -24,6 +24,7 @@ import com.bumptech.glide.request.RequestOptions;
 import com.example.sikstagram.Fragments.PostDetailFragment;
 import com.example.sikstagram.Fragments.ProfileFragment;
 import com.example.sikstagram.R;
+import com.example.sikstagram.display_plant_info;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -214,6 +215,12 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
                                             }
                                         });
                                 return true;
+                            case R.id.Plant_info:
+                                final String pltNumber=post.getPltnumber();
+                                Intent tmp = new Intent(mContext,display_plant_info.class);
+                                tmp.putExtra("pltCode",pltNumber);
+                                mContext.startActivity(tmp);
+                                return true;
                             default:
                                 return false;
                         }
@@ -223,11 +230,15 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
                 if (!post.getPublisher().equals(firebaseUser.getUid())){
                     popupMenu.getMenu().findItem(R.id.edit).setVisible(false);
                     popupMenu.getMenu().findItem(R.id.delete).setVisible(false);
+                    popupMenu.getMenu().findItem(R.id.Plant_info).setVisible(true);
                 }
                 popupMenu.show();
             }
         });
     }
+
+
+
 
     @Override
     public int getItemCount() {
@@ -310,7 +321,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
     }
 
     private void getCommetns(String postId, final TextView comments){
-        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Comments").child(postId);
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Cㅊomments").child(postId);
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {

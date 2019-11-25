@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:text="식물 정보 검색"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+
+            android:id="@+id/img"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+
+
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/table_layout"
+            android:padding="14dp"
+
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="식물 명"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/plntzrNm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="배치장소"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/postngplaceCodeNm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="번식 시기정보"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/prpgtEraInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="번식방법"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/prpgtmthCodeNm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="토양정보"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/soilInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="특별 관리 정보"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/speclmanageInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="녹성 정보"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/toxctyInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00BCD4"
+                    android:text="겨울 최저 온도"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/winterLwetTpCodeNm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="해당하는 정보 없습니다." />
+
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

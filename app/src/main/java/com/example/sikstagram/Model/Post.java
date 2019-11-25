@@ -20,6 +20,8 @@ public class Post {
     public Post() {
     }
 
+
+
     public String getPostid() {
         return postid;
     }

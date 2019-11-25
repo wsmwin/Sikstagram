@@ -31,6 +31,7 @@
             android:theme="@style/Base.Theme.AppCompat" />
         <activity android:name="com.example.sikstagram.CommentsActivity" />
         <activity android:name="com.example.sikstagram.OptionsActivity" />
+        <activity android:name="com.example.sikstagram.display_plant_info" />
         <activity android:name="com.example.sikstagram.EditProfileActivity" />
         <activity android:name="com.example.sikstagram.FollowersActivity" />
     </application>
