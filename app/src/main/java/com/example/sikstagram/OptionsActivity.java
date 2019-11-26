@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class OptionsActivity extends AppCompatActivity {
 
     TextView logout;
-
+    // 프로필 화면에서 옵션 창 열었을 때 로그아웃 실행시킬 수 있도록 하기
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

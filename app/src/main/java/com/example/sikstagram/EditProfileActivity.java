@@ -47,7 +47,7 @@ public class EditProfileActivity extends AppCompatActivity {
     private Uri mImageUri;
     private StorageTask uploadTask;
     StorageReference storageRef;
-
+    // 프로필 설정하는 화면 초기 설정해주기
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,7 +67,7 @@ public class EditProfileActivity extends AppCompatActivity {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid());
         reference.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(DataSnapshot dataSnapshot) {   // 수정되어서 정보가 바뀌었을 때 value 가져오기
                 User user = dataSnapshot.getValue(User.class);
                 fullname.setText(user.getFullname());
                 username.setText(user.getUsername());
@@ -87,7 +87,7 @@ public class EditProfileActivity extends AppCompatActivity {
                 finish();
             }
         });
-
+        // save 버튼 눌렀을 때 updateProfile 실행
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,7 +96,7 @@ public class EditProfileActivity extends AppCompatActivity {
                         bio.getText().toString());
             }
         });
-
+        // change photo 버튼 눌렀을 때 이미지 변경하는 것
         tv_change.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -106,7 +106,7 @@ public class EditProfileActivity extends AppCompatActivity {
                         .start(EditProfileActivity.this);
             }
         });
-
+        //이미지를 눌렀을 때에도 같은 반응
         image_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,7 +117,7 @@ public class EditProfileActivity extends AppCompatActivity {
             }
         });
     }
-
+    // 프로필 업데이트 되도록 하기
     private void updateProfile(String fullname, String username, String bio){
 
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Users").child(firebaseUser.getUid());
@@ -131,13 +131,13 @@ public class EditProfileActivity extends AppCompatActivity {
 
         Toast.makeText(EditProfileActivity.this, "Successfully updated!", Toast.LENGTH_SHORT).show();
     }
-
+    // file extension 가져와주는 작업
     private String getFileExtension(Uri uri){
         ContentResolver cR = getContentResolver();
         MimeTypeMap mime = MimeTypeMap.getSingleton();
         return mime.getExtensionFromMimeType(cR.getType(uri));
     }
-
+    // 이미지 업로드하기
     private void uploadImage(){
         final ProgressDialog pd = new ProgressDialog(this);
         pd.setMessage("Uploading");
@@ -184,7 +184,7 @@ public class EditProfileActivity extends AppCompatActivity {
             Toast.makeText(EditProfileActivity.this, "No image selected", Toast.LENGTH_SHORT).show();
         }
     }
-
+    // 액티비티간에 넘기면서 사진을 넘겨주며서 사진을 업로드하기
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
