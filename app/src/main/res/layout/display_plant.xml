@@ -12,9 +12,13 @@
         >
         <Spinner
             android:id="@+id/spinner1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/spinner_background"
+            android:theme="@style/SpinnerTheme"
             />
 
         <Button
@@ -22,8 +26,10 @@
             android:layout_height="match_parent"
             android:layout_width="wrap_content"
             android:layout_weight="1"
-
-            android:text="식물 정보 검색"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00ff0000"
+            android:text="식물 검색"
             />
     </LinearLayout>
 

@@ -22,6 +22,9 @@ import java.net.URL;
 
 public class display_plant_info extends Activity {
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -211,8 +214,8 @@ public class display_plant_info extends Activity {
 
 
         ArrayAdapter yearAdapter = ArrayAdapter.createFromResource(getApplicationContext(),
-                R.array.plant_name, android.R.layout.simple_spinner_item);
-        yearAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.array.plant_name, android.R.layout.simple_dropdown_item_1line);
+        yearAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         plant_name_SP.setAdapter(yearAdapter);
 
 
@@ -253,10 +256,13 @@ public class display_plant_info extends Activity {
                 //Spinner에서 얻은 식물이름에 맞는 코드를 찾아야한다.
                 String cntNo2=num_labelNames[pt];
 
+
                 Intent tmp = new Intent(getApplicationContext(), display_plant_info.class);
 
                 tmp.putExtra("pltCode",cntNo2);
+
                 startActivity(tmp);
+                finish();
 
 
 

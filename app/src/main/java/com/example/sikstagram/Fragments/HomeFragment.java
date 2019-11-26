@@ -69,6 +69,7 @@ public class HomeFragment extends Fragment {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent tmp = new Intent(getActivity(), display_plant_info.class);
                 tmp.putExtra("pltCode","12954");
                 startActivity(tmp);
