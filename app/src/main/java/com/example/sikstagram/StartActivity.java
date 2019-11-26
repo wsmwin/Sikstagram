@@ -21,7 +21,7 @@ public class StartActivity extends AppCompatActivity {
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
-        //check if user is null
+        // 로그인 상태 유지 시 MainActivity로 이동한다.
         if (firebaseUser != null){
             Intent intent = new Intent(StartActivity.this, MainActivity.class);
             startActivity(intent);
@@ -29,6 +29,7 @@ public class StartActivity extends AppCompatActivity {
         }
     }
 
+    // 로그인 버튼 클릭 시 로그인 페이지로, 회원가입 버튼 클릭 시 회원가입 페이지로
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

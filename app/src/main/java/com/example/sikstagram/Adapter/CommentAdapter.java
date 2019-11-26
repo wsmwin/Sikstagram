@@ -38,6 +38,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
 
     private FirebaseUser firebaseUser;
 
+
     public CommentAdapter(Context context, List<Comment> comments, String postid){
         mContext = context;
         mComment = comments;
@@ -51,6 +52,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
         return new CommentAdapter.ImageViewHolder(view);
     }
 
+    //
     @Override
     public void onBindViewHolder(@NonNull final CommentAdapter.ImageViewHolder holder, final int position) {
 

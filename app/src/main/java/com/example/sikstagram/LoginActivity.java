@@ -40,8 +40,10 @@ public class LoginActivity extends AppCompatActivity {
         login = findViewById(R.id.login);
         txt_signup = findViewById(R.id.txt_signup);
 
+        // 파이어베이스에서 사용자 인스턴스를 가져옴.
         auth = FirebaseAuth.getInstance();
 
+        // 회원가입 버튼 클릭시 회원가입 창으로 이동
         txt_signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,24 +51,30 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        // 로그인 버튼 클릭시 이벤트
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // 로딩 바
                 final ProgressDialog pd = new ProgressDialog(LoginActivity.this);
                 pd.setMessage("Please wait...");
                 pd.show();
 
+                // 입력 이메일과 비밀번호
                 String str_email = email.getText().toString();
                 String str_password = password.getText().toString();
 
+                // 입력이 없으면 토스트 창 띄우기
                 if (TextUtils.isEmpty(str_email) || TextUtils.isEmpty(str_password)){
                     Toast.makeText(LoginActivity.this, "All fields are required!", Toast.LENGTH_SHORT).show();
                 } else {
 
+                    // 이메일과 비밀번호를 input으로 파이어베이스 회원 정보에 로그인 실행
                     auth.signInWithEmailAndPassword(str_email, str_password)
                             .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
+                                    // 로그인 성공시 회원 정보를 갖고 MainActivity로 이동
                                     if (task.isSuccessful()) {
 
                                         DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Users")
@@ -76,8 +84,10 @@ public class LoginActivity extends AppCompatActivity {
                                             @Override
                                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                 pd.dismiss();
+                                                // 테스크 초기화 후 로그인 상태로 플래그 설정
                                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                                // 재접속시 로그인 상태 유지를 위해 intent를 startActivity에 전달.
                                                 startActivity(intent);
                                                 finish();
                                             }
@@ -88,6 +98,7 @@ public class LoginActivity extends AppCompatActivity {
                                             }
                                         });
                                     } else {
+                                        // 실패시 메세지
                                         pd.dismiss();
                                         Toast.makeText(LoginActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
                                     }

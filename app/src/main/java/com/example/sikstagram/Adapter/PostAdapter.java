@@ -58,18 +58,21 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
     }
 
     @NonNull
-    @Override
-    public PostAdapter.ImageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(mContext).inflate(R.layout.post_item, parent, false);
-        return new PostAdapter.ImageViewHolder(view);
+        @Override
+        public PostAdapter.ImageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(mContext).inflate(R.layout.post_item, parent, false);
+            return new PostAdapter.ImageViewHolder(view);
     }
 
+    // post 객체를 보여주는 viewHolder
     @Override
     public void onBindViewHolder(@NonNull final PostAdapter.ImageViewHolder holder, final int position) {
 
+        // post를 가져옴
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         final Post post = mPosts.get(position);
 
+        // holder 객체에 포스트 이미지
         Glide.with(mContext).load(post.getPostimage())
                 .apply(new RequestOptions().placeholder(R.drawable.placeholder))
                 .into(holder.post_image);
@@ -255,11 +258,13 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         return mPosts.size();
     }
 
+    // Post 객체를 보여주는 viewHolder
     public class ImageViewHolder extends RecyclerView.ViewHolder {
 
         public ImageView image_profile, post_image, like, comment, save, more;
         public TextView username, userplant, likes, publisher, description, comments;
 
+        // 객체 연결
         public ImageViewHolder(View itemView) {
             super(itemView);
 
@@ -278,6 +283,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         }
     }
 
+    // 파이어 베이스에 유저 id, 포스트 id 입력
     private void addNotification(String userid, String postid){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Notifications").child(userid);
 
@@ -393,6 +399,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         });
     }
 
+    //
     private void isSaved(final String postid, final ImageView imageView){
 
         final FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
@@ -418,6 +425,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         });
     }
 
+    //
     private void editPost(final String postid){
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
         alertDialog.setTitle("Edit Post");
@@ -453,6 +461,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         alertDialog.show();
     }
 
+    // 파이어베이스에서 Description을 가져옴
     private void getText(String postid, final EditText editText){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts")
                 .child(postid);
