@@ -11,6 +11,7 @@ import java.io.OutputStream;
 
 public class Classifier_Utils {
     public static String assetFilePath(Context context, String assetName) {
+        // 입력받은 모델명을 기반으로 에셋에 있는 모델 파일 경로를 반환
         File file = new File(context.getFilesDir(), assetName);
 
         try (InputStream is = context.getAssets().open(assetName)) {
