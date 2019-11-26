@@ -28,7 +28,7 @@
             android:layout_weight="1"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:background="#00ff0000"
+            android:background="#F0F8EE"
             android:text="식물 검색"
             />
     </LinearLayout>
@@ -42,10 +42,9 @@
         <ImageView
 
             android:id="@+id/img"
-            android:layout_width="400dp"
+            android:layout_width="wrap_content"
             android:layout_height="200dp"
-
-
+            android:layout_centerHorizontal="true"
             android:visibility="visible" />
     </LinearLayout>
 
@@ -58,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="400dp"
 
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="0dp"
             android:layout_marginBottom="4dp"
             android:background="@drawable/table_layout"
             android:padding="14dp"
