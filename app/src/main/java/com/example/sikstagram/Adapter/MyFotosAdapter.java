@@ -31,18 +31,21 @@ public class MyFotosAdapter extends RecyclerView.Adapter<MyFotosAdapter.ImageVie
 
     @NonNull
     @Override
+    // 각 이미지 item들을 view 홀더에 박아 넣음
     public MyFotosAdapter.ImageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mContext).inflate(R.layout.fotos_item, parent, false);
         return new MyFotosAdapter.ImageViewHolder(view);
     }
 
     @Override
+    // viewHolder에 있는 이미지들 묶기
     public void onBindViewHolder(@NonNull final MyFotosAdapter.ImageViewHolder holder, final int position) {
 
         final Post post = mPosts.get(position);
 
         Glide.with(mContext).load(post.getPostimage()).into(holder.post_image);
 
+        // 이미지 리스트에 있는 사진을 누루면 포스트 디테일 fragment를 가져옴.
         holder.post_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,6 +65,7 @@ public class MyFotosAdapter extends RecyclerView.Adapter<MyFotosAdapter.ImageVie
         return mPosts.size();
     }
 
+    // 이미지 viewHolder
     public class ImageViewHolder extends RecyclerView.ViewHolder {
 
         public ImageView post_image;

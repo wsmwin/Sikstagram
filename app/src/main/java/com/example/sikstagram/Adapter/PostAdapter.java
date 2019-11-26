@@ -72,7 +72,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         final Post post = mPosts.get(position);
 
-        // holder 객체에 포스트 이미지
+        // post_image에 포스트 이미지를 띄우기
         Glide.with(mContext).load(post.getPostimage())
                 .apply(new RequestOptions().placeholder(R.drawable.placeholder))
                 .into(holder.post_image);
@@ -90,6 +90,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         nrLikes(holder.likes, post.getPostid());
         getCommetns(post.getPostid(), holder.comments);
 
+        // 좋아요 클릭
         holder.like.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,6 +105,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // 포스트 저장
         holder.save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,6 +119,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // 사용자 프로필 사진 클릭 시 프로필 화면으로 이동
         holder.image_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -129,6 +132,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // 사용자 아이디 클릭 시 프로필 화면으로 보여줌
         holder.username.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -141,6 +145,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // plant의 정보를 보여줌
         holder.userplant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -153,6 +158,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // 포스트 올린 사람 아이디 설정
         holder.publisher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -164,7 +170,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
                         new ProfileFragment()).commit();
             }
         });
-//
+
+        //
         holder.comment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -175,6 +182,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // commets를 누르면 comments activity 실행
         holder.comments.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -185,6 +193,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // post_image를 클릭하면 디테일한 포스팅 정보를 보여주는 PostDetailFragmetn
         holder.post_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -207,6 +216,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
+        // more 클릭 시 수정, 삭제, 식물 정보 창 이동
         holder.more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -296,6 +306,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         reference.push().setValue(hashMap);
     }
 
+    // Notifications 삭제
     private void deleteNotifications(final String postid, String userid){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Notifications").child(userid);
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -399,7 +410,6 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         });
     }
 
-    //
     private void isSaved(final String postid, final ImageView imageView){
 
         final FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
@@ -425,7 +435,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         });
     }
 
-    //
+    // Post 수정
     private void editPost(final String postid){
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
         alertDialog.setTitle("Edit Post");
