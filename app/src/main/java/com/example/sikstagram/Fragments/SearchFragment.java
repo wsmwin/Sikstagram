@@ -47,7 +47,7 @@ public class SearchFragment extends Fragment {
 
     EditText search_bar;
     String search_plant;
-
+    // search 프레그먼트에서 recyclerview 2개로 #검색을 가능하게 하는 것.
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -87,7 +87,7 @@ public class SearchFragment extends Fragment {
             recyclerView.setVisibility(View.GONE);
             myFotos();
         }
-
+        // 텍스트가 바뀔 때마다 user 검색인지 식물 #검색인지 볼 수 있도록 하는 것
         readUsers();
         search_bar.addTextChangedListener(new TextWatcher() {
             @Override
@@ -116,7 +116,7 @@ public class SearchFragment extends Fragment {
 
         return view;
     }
-
+    // 해당하는 유저 찾아서 리스트로 보여주기
     private void searchUsers(String s){
         Query query = FirebaseDatabase.getInstance().getReference("Users").orderByChild("username")
                 .startAt(s)
@@ -140,7 +140,7 @@ public class SearchFragment extends Fragment {
             }
         });
     }
-
+    // 모든 유저 읽어오기
     private void readUsers() {
 
         final FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
@@ -168,7 +168,7 @@ public class SearchFragment extends Fragment {
             }
         });
     }
-
+    // #검색을 위한 식물 사진 받아와서 리스트로 보여주기
     private void myFotos(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
         reference.addValueEventListener(new ValueEventListener() {

@@ -29,7 +29,7 @@ public class NotificationFragment extends Fragment {
     private RecyclerView recyclerView;
     private NotificationAdapter notificationAdapter;
     private List<Notification> notificationList;
-
+    // notification 뷰 리사이클러로 보여주도록 설정하기
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -47,7 +47,7 @@ public class NotificationFragment extends Fragment {
 
         return view;
     }
-
+    // notifications에서 자신의 아이디와 일치하는 데이터 가져와서 notification list 만들고 뿌려주기
     private void readNotifications(){
         FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Notifications").child(firebaseUser.getUid());

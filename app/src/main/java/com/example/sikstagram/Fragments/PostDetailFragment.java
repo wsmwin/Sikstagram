@@ -31,7 +31,7 @@ public class PostDetailFragment extends Fragment {
     private RecyclerView recyclerView;
     private PostAdapter postAdapter;
     private List<Post> postList;
-
+    // post한 것을 상세보기 하는 화면 recyclerview로 보여지도록 하기
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -53,7 +53,7 @@ public class PostDetailFragment extends Fragment {
 
         return view;
     }
-
+    // 저장된 포스트에 대해 정보를 읽어서 보여주기
     private void readPost(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts").child(postid);
 
@@ -63,7 +63,7 @@ public class PostDetailFragment extends Fragment {
                 postList.clear();
                 Post post = dataSnapshot.getValue(Post.class);
                 postList.add(post);
-                
+
                 postAdapter.notifyDataSetChanged();
             }
 

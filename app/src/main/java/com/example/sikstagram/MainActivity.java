@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottom_navigation;
     Fragment selectedfragment = null;
-
+    // bottom navigation view 추가하고 intent 값에 따라서 fragment로 이동할때 정보 갖고 가도록 하기
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-
+    // bottom navigationview 이동하면서 preference 필요한 부분에는 값을 주면서 가도록 하기.
     private BottomNavigationView.OnNavigationItemSelectedListener navigationItemSelectedListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
