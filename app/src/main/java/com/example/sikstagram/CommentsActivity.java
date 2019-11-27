@@ -42,7 +42,7 @@ public class CommentsActivity extends AppCompatActivity {
     String publisherid;
 
     FirebaseUser firebaseUser;
-
+    // comment화면에 들어갈 수 있도록 초기설정 하기
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,7 +92,7 @@ public class CommentsActivity extends AppCompatActivity {
         readComments();
 
     }
-
+    // comment 추가했을 때 hashmap 형태로 넣어주기
     private void addComment(){
 
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Comments").child(postid);
@@ -109,7 +109,7 @@ public class CommentsActivity extends AppCompatActivity {
         addcomment.setText("");
 
     }
-
+    // notification 가도록 해주기
     private void addNotification(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Notifications").child(publisherid);
 
@@ -121,7 +121,7 @@ public class CommentsActivity extends AppCompatActivity {
 
         reference.push().setValue(hashMap);
     }
-
+    // comment에 유저 프로필 사진이 같이 들어가도록 사진 가져오기
     private void getImage(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid());
         reference.addValueEventListener(new ValueEventListener() {
@@ -137,7 +137,7 @@ public class CommentsActivity extends AppCompatActivity {
             }
         });
     }
-
+    // comment들 가져와서 리스트로 추가하여 읽어주기
     private void readComments(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Comments").child(postid);
 

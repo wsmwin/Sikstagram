@@ -38,7 +38,7 @@ public class HomeFragment extends Fragment {
 
     ProgressBar progress_circular;
     FirebaseUser firebaseUser;
-
+    // 홈화면 리사이클러뷰로 보여주도록 지정하기
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -79,7 +79,7 @@ public class HomeFragment extends Fragment {
 
         return view;
     }
-
+    // following누른 게시물에 대해 포스트 읽을 수 있도록 following list 생성해주기
     private void checkFollowing(){
         followingList = new ArrayList<>();
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Follow")
@@ -103,7 +103,7 @@ public class HomeFragment extends Fragment {
             }
         });
     }
-
+    // following 리스트와 자신의 포스트를 읽고 post list 만들어주고 뷰에 뿌려주기
     private void readPosts(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
 

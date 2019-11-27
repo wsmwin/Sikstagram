@@ -38,6 +38,8 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
 
     private FirebaseUser firebaseUser;
 
+
+    // 생성자. 포스트 아이디와 그 포스트에 있는 댓글 리스트를 input으로 받음
     public CommentAdapter(Context context, List<Comment> comments, String postid){
         mContext = context;
         mComment = comments;
@@ -45,15 +47,18 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
     }
 
     @NonNull
+    // 각 커맨트 객채를 형상화
     @Override
     public CommentAdapter.ImageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mContext).inflate(R.layout.comment_item, parent, false);
         return new CommentAdapter.ImageViewHolder(view);
     }
 
+    // 파이어베이스에서 댓글들을 가져옴
     @Override
     public void onBindViewHolder(@NonNull final CommentAdapter.ImageViewHolder holder, final int position) {
 
+        // 댓글들 정보를 가져옴
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         final Comment comment = mComment.get(position);
 
@@ -63,7 +68,6 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
         holder.username.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent intent = new Intent(mContext, MainActivity.class);
                 intent.putExtra("publisherid", comment.getPublisher());
                 mContext.startActivity(intent);
@@ -81,9 +85,9 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
 
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
+            // 오래 눌렀을 때 삭제 여부를 묻는 창 뜸
             public boolean onLongClick(View view) {
                 if (comment.getPublisher().equals(firebaseUser.getUid())) {
-
                         AlertDialog alertDialog = new AlertDialog.Builder(mContext).create();
                         alertDialog.setTitle("Do you want to delete?");
                         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "No",
@@ -117,10 +121,12 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
     }
 
     @Override
+    // 사이즈 가져오기
     public int getItemCount() {
         return mComment.size();
     }
 
+    // 프로필 이미지, 사용자 이름, 커맨트를 묶은 객체
     public class ImageViewHolder extends RecyclerView.ViewHolder {
 
         public ImageView image_profile;
@@ -135,6 +141,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ImageVie
         }
     }
 
+    // 댓글을 쓴 사용자 이름을 가져오는 함수
     private void getUserInfo(final ImageView imageView, final TextView username, String publisherid){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference()
                 .child("Users").child(publisherid);

@@ -54,6 +54,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
     }
 
     @Override
+    // BinderHolder
     public void onBindViewHolder(@NonNull final UserAdapter.ImageViewHolder holder, final int position) {
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
@@ -90,6 +91,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
         });
 
         holder.btn_follow.setOnClickListener(new View.OnClickListener() {
+            // follow 버튼을 눌렀을 때 follow 여부를 firebase에 저장하고 follow 당한 사람은 Notification을 띄움
             @Override
             public void onClick(View view) {
                 if (holder.btn_follow.getText().toString().equals("follow")) {
@@ -97,7 +99,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
                             .child("following").child(user.getId()).setValue(true);
                     FirebaseDatabase.getInstance().getReference().child("Follow").child(user.getId())
                             .child("followers").child(firebaseUser.getUid()).setValue(true);
-
                     addNotification(user.getId());
                 } else {
                     FirebaseDatabase.getInstance().getReference().child("Follow").child(firebaseUser.getUid())
@@ -110,6 +111,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
         });
     }
 
+    // Notificaiton에 팔로우 언팔 여부를 표시
     private void addNotification(String userid){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Notifications").child(userid);
 
@@ -127,6 +129,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
         return mUsers.size();
     }
 
+    // 회원 목록 중 하나의 Item을 보여주는 ViewHolder
     public class ImageViewHolder extends RecyclerView.ViewHolder {
 
         public TextView username;
@@ -144,6 +147,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
         }
     }
 
+    // Follow 여부를 보여주는 버튼. Follower <-> Folling 스위치 버튼
     private void isFollowing(final String userid, final Button button){
 
         final FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();

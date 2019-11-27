@@ -45,6 +45,7 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
         return new NotificationAdapter.ImageViewHolder(view);
     }
 
+    // bindViewHolder. viewholder 들을 묶음.
     @Override
     public void onBindViewHolder(@NonNull final NotificationAdapter.ImageViewHolder holder, final int position) {
 
@@ -61,6 +62,7 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
             holder.post_image.setVisibility(View.GONE);
         }
 
+        // Notification에 있는 이미지를 선택하면 디테일한 정보를 보여주는 PostDetailFragment 를 실행한다
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,12 +87,13 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
 
 
     }
-//
+
     @Override
     public int getItemCount() {
         return mNotification.size();
     }
 
+    // notification 썸내일들 viewholder
     public class ImageViewHolder extends RecyclerView.ViewHolder {
 
         public ImageView image_profile, post_image;
@@ -106,6 +109,7 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
         }
     }
 
+    // user 정보를 가져와서 notification 설정을 한 포스터들의 정보를 가져옴
     private void getUserInfo(final ImageView imageView, final TextView username, String publisherid){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference()
                 .child("Users").child(publisherid);
@@ -125,6 +129,7 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
         });
     }
 
+    // 알아낸 post id로 이미지를 가져온다
     private void getPostImage(final ImageView post_image, String postid){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference()
                 .child("Posts").child(postid);

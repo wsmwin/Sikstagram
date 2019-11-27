@@ -58,7 +58,7 @@ public class ProfileFragment extends Fragment {
     private List<Post> postList_saves;
 
     ImageButton my_fotos, saved_fotos;
-
+    // 프로필 화면에 대해서 두개의 리사이클러 뷰와 정보들 보여지도록 하기
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -112,7 +112,7 @@ public class ProfileFragment extends Fragment {
             checkFollow();
             saved_fotos.setVisibility(View.GONE);
         }
-
+        // 프로필 수정
         edit_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -139,14 +139,14 @@ public class ProfileFragment extends Fragment {
                 }
             }
         });
-
+        // 우측상단 옵션버튼으로 로그아웃여는 클릭
         options.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getContext(), OptionsActivity.class));
             }
         });
-
+        // 내 사진들 볼 수 있는 클릭
         my_fotos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -154,7 +154,7 @@ public class ProfileFragment extends Fragment {
                 recyclerView_saves.setVisibility(View.GONE);
             }
         });
-
+        // 내가 저장한 사진들 볼 수 있는 클릭
         saved_fotos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -163,7 +163,7 @@ public class ProfileFragment extends Fragment {
             }
         });
 
-
+        // follower들 볼 수 있는 클릭
         followers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -173,7 +173,7 @@ public class ProfileFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
+        // following한 사람들 볼 수 있는 클릭
         following.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -186,7 +186,7 @@ public class ProfileFragment extends Fragment {
 
         return view;
     }
-
+    // notification add하는 것
     private void addNotification(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Notifications").child(profileid);
 
@@ -198,7 +198,7 @@ public class ProfileFragment extends Fragment {
 
         reference.push().setValue(hashMap);
     }
-
+    // userInfo 가져오는 것
     private void userInfo(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Users").child(profileid);
         reference.addValueEventListener(new ValueEventListener() {
@@ -222,7 +222,7 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
-
+    // follow했는지 check하는 것
     private void checkFollow(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference()
                 .child("Follow").child(firebaseUser.getUid()).child("following");
@@ -242,7 +242,7 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
-
+    // follower 카운트 세어주는 것
     private void getFollowers(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Follow").child(profileid).child("followers");
         reference.addValueEventListener(new ValueEventListener() {
@@ -270,7 +270,7 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
-
+    // 포스트한 글이 몇개인지 구하는 것
     private void getNrPosts(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
         reference.addValueEventListener(new ValueEventListener() {
@@ -292,7 +292,7 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
-
+    // 내가 올린 사진들 가져와서 list에 저장해주고 뿌리는 것
     private void myFotos(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
         reference.addValueEventListener(new ValueEventListener() {
@@ -315,7 +315,7 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
-
+    // 내가 저장한 포스트들 가져와서 list에 저장해주고 뿌리는 것
     private void mySaves(){
         mySaves = new ArrayList<>();
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Saves").child(firebaseUser.getUid());
@@ -334,7 +334,7 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
-
+    // save한 post들 가져와서 list에 저장시켜주는 것
     private void readSaves(){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
         reference.addValueEventListener(new ValueEventListener() {

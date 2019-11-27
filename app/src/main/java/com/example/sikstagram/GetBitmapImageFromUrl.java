@@ -14,6 +14,7 @@ public class GetBitmapImageFromUrl {
 
     BitmapFactory.Options options = null;
 
+    // 기본 getImageBitmap 함수. Input으로 url을 받고 비트맵 타입으로 리턴한다.
     public Bitmap getImageBitmap(String url) {
         GetImageTask task = new GetImageTask();
         Bitmap bitmap= null;
@@ -28,6 +29,7 @@ public class GetBitmapImageFromUrl {
         return bitmap;
     }
 
+    // getImageBitmap override. options를 받아서 bitmap을 받아오는 옵션을 설정.
     public Bitmap getImageBitmap(String url, BitmapFactory.Options o) {
         GetImageTask task = new GetImageTask();
         Bitmap bitmap= null;
@@ -42,6 +44,8 @@ public class GetBitmapImageFromUrl {
         return bitmap;
     }
 
+
+    // 비동기 처리 방법 AsyncTask를 이용하여 비트맵을 url에서 가져옴
     private class GetImageTask extends AsyncTask<String, Void, Bitmap> {
 
         @Override
